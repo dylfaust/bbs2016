@@ -1,0 +1,284 @@
+.row.xs-center {
+	h1,h2,h3,h4,h5,p,img {
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+}
+p,h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0;
+}
+a+p,
+p+p,
+p+form,
+h1+p,
+h2+p,
+h2+h6,
+h3+p,
+h4+p,
+h4+h5,
+h5+p,
+img+p,
+img+h2,
+img+h4,
+small+p,
+.col-xs-12+.col-xs-12{
+	margin-top: 16px;
+}
+.col-xs-12+div[class^="col-sm-"], .col-xs-12+div[class*="col-sm-"] {
+	@media only screen and (min-width: $sm-breakpoint) {
+		margin-top: 0;
+	}
+}
+.col-xs-12+div[class^="col-md-"], .col-xs-12+div[class*="col-md-"] {
+	@media only screen and (min-width: $md-breakpoint) {
+		margin-top: 0;
+	}
+}
+.col-xs-12+div[class^="col-lg-"], .col-xs-12+div[class*="col-lg-"] {
+	@media only screen and (min-width: $lg-breakpoint) {
+		margin-top: 0;
+	}
+}
+.col-xs-12+div[class^="col-xl-"], .col-xs-12+div[class*="col-xl-"] {
+	@media only screen and (min-width: $xl-breakpoint) {
+		margin-top: 0;
+	}
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+video {
+	max-width: 100%;
+	/*height: auto;*/
+	background: #000;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+img.xs-center, img.center {
+	display: block;
+	margin: 0 auto;
+}
+a.center, a.xs-center {
+	display: block;
+	margin: 0 auto;
+}
+img.md-left {
+	@media only screen and (min-width: $lg-breakpoint) {
+		display: block;
+		margin: 0 auto 0 0;
+	}
+}
+img.rounded {
+	border-radius: 1000px;
+}
+img.shadow {
+	-webkit-filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+	filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
+}
+.text-align-center {
+	text-align: center;
+}
+.text-align-right {
+	text-align: right;
+}
+.xs-text-center {
+	display: block;
+	text-align: center;
+}
+.lg-text-align-left {
+	@media only screen and (min-width: $lg-breakpoint) {
+		text-align: left;
+	}
+}
+.sm-text-right {
+	@media only screen and (min-width: $sm-breakpoint) {
+		display: block;
+		text-align: right;
+	}
+}
+.md-text-right {
+	@media only screen and (min-width: $lg-breakpoint) {
+		display: block;
+		text-align: right;
+	}
+}
+.invisible {
+	visibility: hidden;
+}
+.hidden {
+	display: none;
+}
+.flex {
+	display: flex;
+}
+.lg-flex {
+	@media only screen and (min-width: $lg-breakpoint) {
+		display: flex;
+	}
+}
+.xl-flex {
+	@media only screen and (min-width: $xl-breakpoint) {
+		display: flex;
+	}
+}
+.xl-flex-direction-row {
+	@media only screen and (min-width: $xl-breakpoint) {
+		flex-direction: row;
+	}
+}
+.xl-justify-content-space-around {
+	@media only screen and (min-width: $xl-breakpoint) {
+		justify-content: space-around;
+	}
+}
+.xl-flex-row-space-between {
+	@media only screen and (min-width: $xl-breakpoint) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+.lg-flex-row {
+	@media only screen and (min-width: $lg-breakpoint) {
+		flex-direction: row;
+	}
+}
+.lg-align-items-center {
+	@media only screen and (min-width: $lg-breakpoint) {
+		align-items: center;
+	}
+}
+.xl-align-items-stretch {
+	@media only screen and (min-width: $xl-breakpoint) {
+		align-items: stretch;
+	}
+}
+.flex-row {
+	flex-direction: row;
+	align-items: stretch;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.row.md-flex {
+	display: initial;
+	@media only screen and (min-width: $lg-breakpoint) {
+		display:  flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: stretch;
+	}
+}
+.xs-order-0 {
+	order: 0;
+}
+.xs-order-1 {
+	order: 1;
+}
+.sm-order-0 {
+	@media only screen and (min-width: $sm-breakpoint) {
+		order: 0;
+	}
+}
+.sm-order-1 {
+	@media only screen and (min-width: $sm-breakpoint) {
+		order: 1;
+	}
+}
+.md-order-0 {
+	@media only screen and (min-width: $md-breakpoint) {
+		order: 0;
+	}
+}
+.md-order-1 {
+	@media only screen and (min-width: $md-breakpoint) {
+		order: 1;
+	}
+}
+.justify-content-center {
+	justify-content: center;
+}
+.align-content-center {
+	align-content: center;
+}
+.align-items-center {
+	align-items: center;
+}
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+.xl-fullwidth {
+	@media only screen and (min-width: $xl-breakpoint) {
+		width: 100%;
+	}
+}
+.lg-nowrap {
+	@media only screen and (min-width: $lg-breakpoint) {
+		white-space: nowrap;
+	}
+}
+.xl-wrap {
+	@media only screen and (min-width: $xl-breakpoint) {
+		white-space: normal;
+	}
+}
+.xl-noclearfix {
+	&::after {
+		@media only screen and (min-width: $xl-breakpoint) {
+			clear: none;
+			display: initial;
+		}
+	}
+}
+.drop-shadow {
+	-webkit-filter: drop-shadow(0 0 10px #000);
+	filter: drop-shadow(0 0 10px #000);
+}
+.xl-double-padding {
+	@media only screen and (min-width: $xl-breakpoint) {
+		padding-left: $grid-gutter-width;
+		padding-right: $grid-gutter-width;
+	}
+}
+.float-left {
+	float: left;
+}
+.lg-float-right {
+	@media only screen and (min-width: $lg-breakpoint) {
+		float: right;
+	}
+}
+.xl-margin-top {
+	@media only screen and (min-width: $xl-breakpoint) {
+		margin-top: 16px;
+	}
+}
+.display-none {
+	display: none;
+}
+.lg-display-block {
+	@media only screen and (min-width: $lg-breakpoint) {
+		display: block;
+	}
+}
+p.quote::before, p.quote::after {
+	content: '"';
+}
+.flex-grow {
+	flex: 1 0 auto;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.justify-content-end {
+	justify-content: flex-end;
+}

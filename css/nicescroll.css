@@ -1,0 +1,11 @@
+.nicescroll-cursors {
+	float: none !important;
+	left: 50% !important;
+	-webkit-transform: translateX(-50%) !important;
+	-moz-transform: translateX(-50%) !important;
+	-ms-transform: translateX(-50%) !important;
+	-o-transform: translateX(-50%) !important;
+	transform: translateX(-50%) !important;
+	cursor: pointer;
+	cursor: hand;
+}
