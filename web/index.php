@@ -11,49 +11,10 @@
 		</header>
 		<main>
 		<div class="top-section" id="top-section">
-			<div class="flex content airport parallax-item full first" data-stellar-background-ratio="0.50" data-stellar-vertical-offset="150">
-				<div class="content-body lg-flex lg-align-items-center alt">
-					<div class="area">
-						<h3>
-							Web Development
-						</h3>
-						<p>Web development can be a very daunting task for any business. The ever changing susccess matrix and technology surrounding the craft can make it a full time job for any successful entrepreneur.</p>
-						<p>Many creative and strategy focused agencies do not involve web developers until after they have ironed out the web design with the client frst. Then again, there are many tech-centric frms who fall short on the marketing aspects of deisgn. Buzzbizz Studios utilizes a team of in-house experts in marketing strategy, graphic design, and digital marketing strategy to deliver efective websites for our clients.</p>
-					</div>
-				</div>
-			</div>
-			<nav class="secondary with-needs" id="secondaryNav">
+			<?php include 'web/intro.php'; ?>
+			<nav class="secondary with-needs landing" id="secondaryNav">
 				<div class="container">
-					<ul>
-						<li>
-							<a href="/web/responsive.html">
-								<span class="icon-web"></span>
-								<span>A New Mobile </span>
-								<span>Responsive Website</span>
-							</a>
-						</li>
-						<li>
-							<a href="/web/retro-fit.html">
-								<span class="icon-responsive"></span>
-								<span>My Site Made </span>
-								<span>Mobile Responsive</span>
-							</a>
-						</li>
-						<li>
-							<a href="/web/redesign.html">
-								<span class="icon-redesign"></span>
-								<span>My Current </span>
-								<span>Site Redesigned</span>
-							</a>
-						</li>
-						<li>
-							<a href="/web/ecommerce.html">
-								<span class="icon-ecommerce"></span>
-								<span>E-Commerce </span>
-								<span>Solutions</span>
-							</a>
-						</li>
-					</ul>
+					<?php include 'web/nav.php'; ?>
 				</div>
 			</nav>
 		</div>
@@ -138,150 +99,535 @@
 			<div class="existence">
 				<div class="matrix" id="theMatrix">
 					<div class="item active">
-						<div class="item-control">
-							<h4>Matrix Item 1</h4>
+						<div class="item-control active">
+							<div class="item-control-body">
+								<!--<h4>ACLU of Alaska</h4>-->
+								<img src="/img/brands/aclu.png" width="206" height="81" alt="">
+							</div>
 						</div>
-						<div class="item-body custom1">
-							This is the 1 body
+						<div class="item-body">
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/aclu-of-anchorage/mobile.jpg" width="385" height="2565" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/aclu-of-anchorage/tablet.jpg" width="752" height="1829" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/aclu-of-anchorage/live.jpg" width="2445" height="1258" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="item brother">
+					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 2</h4>
+							<div class="item-control-body">
+								<!--<h4>Alborn Construction</h4>-->
+								<img src="/img/brands/alborn.png" alt="">
+							</div>
 						</div>
-						<div class="item-body custom2">
-							This is the body 2
+						<div class="item-body">
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/alborn-construction/mobile.jpg" width="385" height="1859" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/alborn-construction/tablet.jpg" width="752" height="1330" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/alborn-construction/live.jpg" width="2444" height="1271" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="item brother">
+					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 3</h4>
-						</div>
-						<div class="item-body custom3">
-							This is the body 3
-						</div>
-					</div>
-					<div class="item brother">
-						<div class="item-control">
-							<h4>Matrix Item 4</h4>
+							<div class="item-control-body">
+								<img src="/img/brands/ams.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom4">
-							This is the body 4
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/ams-couriers/mobile.jpg" width="385" height="3251" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/ams-couriers/tablet.jpg" width="752" height="2618" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/ams-couriers/live.jpg" width="1920" height="2587" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="item brother">
+					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 5</h4>
+							<div class="item-control-body">
+								<!--<h4>Arctic Light Gallery & Excursions</h4>-->
+								<img src="/img/brands/arcticlight.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom5">
-							This is the body 5
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/arctic-light/mobile.jpg" width="385" height="1321" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/arctic-light/tablet.jpg" width="752" height="1330" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/arctic-light/live.jpg" width="2445" height="4896" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="item brother">
+					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 6</h4>
+							<div class="item-control-body">
+								<!--<h4>Aurora Fine Art</h4>-->
+								<img src="/img/brands/aurorafineart.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom6">
-							This is the body 6
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/aurora-fine-art/mobile.jpg" width="385" height="2162" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/aurora-fine-art/tablet.jpg" width="752" height="1705" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/aurora-fine-art/live.jpg" width="2446" height="1962" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 7</h4>
+							<div class="item-control-body">
+								<!--<h4>Automated Laundry</h4>-->
+								<img src="/img/brands/autolaundry.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom5">
-							This is the body 7
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/autolaundry/mobile.jpg" width="385" height="4727" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/autolaundry/tablet.jpg" width="752" height="2765" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/autolaundry/live.jpg" width="2445" height="1769" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 8</h4>
+							<div class="item-control-body">
+								<!--<h4>Bean's Cafe</h4>-->
+								<img src="/img/brands/beanscafe.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom4">
-							This is the body 8
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/beans-cafe/mobile.jpg" width="385" height="3323" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/beans-cafe/tablet.jpg" width="752" height="3258" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/beans-cafe/live.jpg" width="2445" height="3595" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 9</h4>
+							<div class="item-control-body">
+								<!--<h4>Bright Beginnings</h4>-->
+								<img src="/img/brands/brightbeginnings.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom3">
-							This is the body 9
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/bright-beginnings/mobile.jpg" width="385" height="3877" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/bright-beginnings/tablet.jpg" width="752" height="2392" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/bright-beginnings/live.jpg" width="2446" height="1890" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 10</h4>
+							<div class="item-control-body">
+								<!--<h4>Burnett Company Realty</h4>-->
+								<img src="/img/brands/burnettcompanyrealty.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom2">
-							This is the body 10
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/burnett-company-realty/mobile.jpg" width="385" height="1665" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/burnett-company-realty/tablet.jpg" width="752" height="1264" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/burnett-company-realty/live.jpg" width="2445" height="1259" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 11</h4>
+							<div class="item-control-body">
+								<!--<h4>Chaz Limited</h4>-->
+								<img src="/img/brands/chaz.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom1">
-							This is the body 11
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/chaz-limited/mobile.jpg" width="385" height="4103" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/chaz-limited/tablet.jpg" width="752" height="4470" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/chaz-limited/live.jpg" width="2446" height="3179" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 12</h4>
+							<div class="item-control-body">
+								<!--<h4>Eagle River GDM</h4>-->
+								<img src="/img/brands/gdm.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom2">
-							This is the body 12
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/good-deal-magazine/mobile.jpg" width="385" height="2854" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/good-deal-magazine/tablet.jpg" width="752" height="2021" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/good-deal-magazine/live.jpg" width="2445" height="1317" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 13</h4>
+							<div class="item-control-body">
+								<!--<h4>New City Entertainment</h4>-->
+								<img src="/img/brands/newcity.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom3">
-							This is the body 13
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/new-city-entertainment/mobile.jpg" width="385" height="5523" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/new-city-entertainment/tablet.jpg" width="752" height="4737" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/new-city-entertainment/live.jpg" width="2446" height="3785" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 14</h4>
+							<div class="item-control-body">
+								<!--<h4>One of a Kind Design</h4>-->
+								<img src="/img/brands/oneofakinddesign.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom4">
-							This is the body 14
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/one-of-a-kind-design/mobile.jpg" width="385" height="2533" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/one-of-a-kind-design/tablet.jpg" width="752" height="2542" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/one-of-a-kind-design/live.jpg" width="2445" height="2503" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 15</h4>
+							<div class="item-control-body">
+								<!--<h4>Party Craft!</h4>-->
+								<img src="/img/brands/partycraft.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom5">
-							This is the body 15
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/party-craft/mobile.jpg" width="385" height="3356" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/party-craft/tablet.jpg" width="752" height="2105" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/party-craft/live.jpg" width="2446" height="2242" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 16</h4>
+							<div class="item-control-body">
+								<!--<h4>Phillips Cruises</h4>-->
+								<img src="/img/brands/phillipscruises.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom6">
-							This is the body 16
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/phillips-cruises/mobile.jpg" width="385" height=7704" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/phillips-cruises/tablet.jpg" width="752" height="6587" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/phillips-cruises/live.jpg" width="2445" height="3025" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 17</h4>
+							<div class="item-control-body">
+								<!--<h4>Think Office</h4>-->
+								<img src="/img/brands/thinkoffice.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom3">
-							This is the body 17
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/think-office/mobile.jpg" width="385" height="1321" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/think-office/tablet.jpg" width="752" height="1330" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/think-office/live.jpg" width="2446" height="1195" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="item-control">
-							<h4>Matrix Item 18</h4>
+							<div class="item-control-body">
+								<!--<h4>Trailboss Solutions</h4>-->
+								<img src="/img/brands/trailboss.png" alt="">
+							</div>
 						</div>
 						<div class="item-body custom1">
-							This is the body 18
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/trailboss/mobile.jpg" width="385" height="3326" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/trailboss/tablet.jpg" width="752" height="2117" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/trailboss/live.jpg" width="2446" height="1641" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-control">
+							<div class="item-control-body">
+								<!--<h4>UnWined</h4>-->
+								<img src="/img/brands/unwined.png" alt="">
+							</div>
+						</div>
+						<div class="item-body custom3">
+							<div class="layout">
+								<div class="phoneShine">
+									<img class="shine" src="/img/phone_shine.png" width="197" height="379" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/unwined/mobile.jpg" width="385" height="3566" alt="">
+									</div>
+									<img class="phone" src="/img/phone.png" width="197" height="379" alt="">
+								</div>
+								<div class="tabletShine">
+									<img class="shine" src="/img/tablet_shine.png" width="472" height="631" alt="">
+									<div class="viewport">
+										<img src="/img/brands/web/unwined/tablet.jpg" width="752" height="3454" alt="">
+									</div>
+									<img class="tablet" src="/img/tablet.png" width="472" height="631" alt="">
+								</div>
+								<div class="full scroller">
+									<img class="full" src="/img/brands/web/unwined/live.jpg" width="2446" height="2851" alt="">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="ribbon orange">
+			<div class="container">
+				<h1>
+					Ready to take your story to the World Wide Web?
+				</h1>
+				<a class="btn btn-block" href="#">Let's Talk</a>
 			</div>
 		</div>
 		</main>

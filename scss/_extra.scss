@@ -11,8 +11,12 @@ p,h1,h2,h3,h4,h5 {
 	padding: 0;
 }
 a+p,
+a+a,
+p+a,
+p+img,
 p+p,
 p+form,
+h1+img,
 h1+p,
 h2+p,
 h2+h6,
@@ -20,6 +24,7 @@ h3+p,
 h4+p,
 h4+h5,
 h5+p,
+img+p,
 img+p,
 img+h2,
 img+h4,
@@ -281,4 +286,14 @@ p.quote::before, p.quote::after {
 }
 .justify-content-end {
 	justify-content: flex-end;
+}
+.lg-justify-content-end {
+	@media only screen and (min-width: $lg-breakpoint) {
+		justify-content: flex-end;
+	}
+}
+.lg-justify-content-center {
+	@media only screen and (min-width: $lg-breakpoint) {
+		justify-content: center;
+	}
 }

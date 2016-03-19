@@ -9,3 +9,6 @@
 	cursor: pointer;
 	cursor: hand;
 }
+.nicescroll-rails-hr {
+	display: none !important;
+}

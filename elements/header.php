@@ -1,4 +1,4 @@
-<header class="xl-flex flex-column" id="header"> <!--data-stellar-background-ratio="0.85" data-stellar-vertical-offset="-950"-->
+<header class="xl-flex flex-column" id="header">
 	<div class="logo flex-grow flex flex-column">
 		<div class="padding flex-grow"></div>
 		<div class="container sm-flex justify-content-center">
