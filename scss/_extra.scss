@@ -137,6 +137,11 @@ img.shadow {
 		flex-direction: row;
 	}
 }
+.xl-flex-column {
+	@media only screen and (min-width: $xl-breakpoint) {
+		flex-direction: column;
+	}
+}
 .xl-justify-content-space-around {
 	@media only screen and (min-width: $xl-breakpoint) {
 		justify-content: space-around;

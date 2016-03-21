@@ -8,7 +8,7 @@
 <body class="main home">
 <?php include 'header.php'; ?>
 <main>
-<div class="flex content grocery parallax-item" data-stellar-background-ratio="0.80" data-stellar-vertical-offset="50">
+<div class="flex content grocery parallax-item" data-stellar-background-ratio="0.90" data-stellar-vertical-offset="100">
 	<div class="content-body lg-flex lg-align-items-center alt">
 		<div class="area">
 			<h3>
@@ -45,7 +45,7 @@
 		</div>
 	</div>
 </div>
-<div class="flex content mechanic parallax-item" data-stellar-background-ratio="0.80" data-stellar-vertical-offset="150">
+<div class="flex content mechanic parallax-item" data-stellar-background-ratio="0.90" data-stellar-vertical-offset="150">
 	<div class="content-body lg-flex lg-align-items-center justify-content-end">
 		<div class="area">
 			<h3>
@@ -84,7 +84,7 @@
 		</div>
 	</div>
 </div>
-<div class="flex content baker parallax-item" data-stellar-background-ratio="0.80" data-stellar-vertical-offset="100">
+<div class="flex content baker parallax-item" data-stellar-background-ratio="0.90" data-stellar-vertical-offset="90">
 	<div class="content-body lg-flex lg-align-items-center alt">
 		<div class="area">
 			<h3>
@@ -123,7 +123,7 @@
 		</div>
 	</div>
 </div>
-<div class="flex content lady parallax-item" data-stellar-background-ratio="0.80" data-stellar-vertical-offset="250">
+<div class="flex content lady parallax-item" data-stellar-background-ratio="0.90" data-stellar-vertical-offset="250">
 	<div class="content-body lg-flex lg-align-items-center justify-content-end">
 		<div class="area">
 			<h3>
@@ -162,7 +162,7 @@
 		</div>
 	</div>
 </div>
-<div class="flex content guy parallax-item" data-stellar-background-ratio="0.80" data-stellar-vertical-offset="150">
+<div class="flex content guy parallax-item" data-stellar-background-ratio="0.90" data-stellar-vertical-offset="150">
 	<div class="content-body lg-flex lg-align-items-center alt">
 		<div class="area">
 			<h3>

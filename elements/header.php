@@ -1,16 +1,15 @@
-<header class="xl-flex flex-column" id="header">
-	<div class="logo flex-grow flex flex-column">
-		<div class="padding flex-grow"></div>
-		<div class="container sm-flex justify-content-center">
-			<div class="logo-container">
-				<a href="/" class="logo-link">
-					<img src="/img/logo-white.svg" alt="">
-				</a>
-			</div>
-		</div>
-		<div class="padding flex-grow"></div>
-	</div>
-	<div class="logo-large flex-grow">
+<header class="xl-flex xl-flex-column" id="header">
+	<div id="logo">
+		<img src="/img/logo.svg" width="245" height="220" alt="">
 	</div>
 	<?php include 'nav.php' ?>
+	<div class="citySky">
+		<div class="city"></div>
+		<div class="sky">
+			<video autoplay loop poster="#" muted>
+				<source src="/videos/sky/video.webm" type="video/webm">
+				<source src="/videos/sky/video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
 </header>

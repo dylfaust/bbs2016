@@ -22,7 +22,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/video/" class="nav-video">
 						<span class="icon-video"></span>
 						<span>Video </span>
 						<span>Production</span>

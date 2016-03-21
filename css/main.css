@@ -4761,6 +4761,10 @@ img.shadow {
     flex-direction: row; } }
 
 @media only screen and (min-width: 1320px) {
+  .xl-flex-column {
+    flex-direction: column; } }
+
+@media only screen and (min-width: 1320px) {
   .xl-justify-content-space-around {
     justify-content: space-around; } }
 
@@ -4912,10 +4916,81 @@ p {
   font-size: 16px; }
 
 header {
-  background: transparent url("../img/downtown-anchorage.jpg") no-repeat center center/cover; }
+  background: transparent url("../img/downtown-anchorage.jpg") no-repeat center center/cover;
+  position: relative; }
+  header .citySky {
+    display: none; }
+    @media only screen and (min-width: 992px) {
+      header .citySky {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+        header .citySky .city {
+          background: url("../img/city.png") no-repeat bottom 70% center/cover;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 5; }
+        header .citySky .sky {
+          overflow: hidden;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: #6B9DCC; }
+          header .citySky .sky video {
+            width: 100%; } }
+  @media only screen and (min-width: 992px) {
+    header {
+      background: none; } }
   @media screen and (min-width: 1320px) and (min-height: 788px) {
     header {
       height: 100vh; } }
+  header nav {
+    position: relative;
+    z-index: 20; }
+    @media screen and (min-width: 1320px) and (min-height: 788px) {
+      header nav {
+        position: absolute;
+        width: 100%;
+        min-height: 100px;
+        left: 0;
+        bottom: 0; } }
+  header::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); }
+  header #logo {
+    position: relative;
+    z-index: 20;
+    padding: 16px; }
+    @media only screen and (min-width: 992px) {
+      header #logo {
+        padding: 64px 0; } }
+    header #logo img {
+      display: block;
+      margin: 0 auto;
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8));
+      -webkit-filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.8)); }
+    @media screen and (min-width: 1320px) and (min-height: 788px) {
+      header #logo {
+        flex: 1 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        header #logo img {
+          padding-bottom: 100px; } }
   header .logo {
     position: relative;
     overflow: hidden; }
@@ -4980,40 +5055,66 @@ nav {
     border-style: solid;
     border-color: #FFF;
     border-width: 3px 0 0; }
-  nav.with-needs::before {
-    content: 'I Need >';
-    text-transform: uppercase;
-    color: #FFF;
-    font-weight: 700;
-    display: block;
-    padding: 16px;
-    font-size: 24px;
-    transition: all 0.25s ease-in-out; }
-  nav.with-needs.fixed.landing::before {
-    color: #FF6633; }
-  @media only screen and (min-width: 544px) {
-    nav.with-needs::before {
-      text-align: center; } }
-  @media only screen and (min-width: 992px) {
-    nav.with-needs {
-      position: relative; }
+  nav.with-needs {
+    /*&::before {*/
+    /*content: 'I Need >';*/
+    /*text-transform: uppercase;*/
+    /*color: #FFF;*/
+    /*font-weight: 700;*/
+    /*display: block;*/
+    /*padding: 16px;*/
+    /*font-size: 24px;*/
+    /*transition: $mainTransition;*/
+    /*}*/ }
+    @media only screen and (min-width: 544px) {
+      nav.with-needs ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around; } }
+    @media only screen and (min-width: 992px) {
+      nav.with-needs ul {
+        max-width: 700px; } }
+    @media only screen and (min-width: 1320px) {
+      nav.with-needs ul {
+        max-width: 100%; } }
+    nav.with-needs .iNeed h2 {
+      padding: 16px 0;
+      font-size: 24px;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #FFF;
+      transition: all 0.25s ease-in-out; }
+    nav.with-needs.fixed.landing ul li.iNeed h2 {
+      color: #FF6633; }
+    nav.with-needs.fixed.landing::before {
+      color: #FF6633; }
+    @media only screen and (min-width: 544px) {
       nav.with-needs::before {
-        position: absolute;
-        left: 12%;
-        top: 50%;
-        transform: translateY(-50%); }
+        text-align: center; } }
+    @media only screen and (min-width: 992px) {
+      nav.with-needs {
+        position: relative; }
+        nav.with-needs::before {
+          position: absolute;
+          left: 12%;
+          top: 50%;
+          transform: translateY(-50%); }
+        nav.with-needs a {
+          padding: 16px 20px 0; } }
+    @media only screen and (min-width: 1320px) {
+      nav.with-needs::before {
+        left: 18%;
+        top: 48%; } }
+    @media only screen and (min-width: 1680px) {
+      nav.with-needs::before {
+        left: 25%;
+        top: 48%; }
       nav.with-needs a {
-        padding: 16px 20px 0; } }
-  @media only screen and (min-width: 1320px) {
-    nav.with-needs::before {
-      left: 18%;
-      top: 48%; } }
-  @media only screen and (min-width: 1680px) {
-    nav.with-needs::before {
-      left: 25%;
-      top: 48%; }
-    nav.with-needs a {
-      padding: 16px 24px 0; } }
+        padding: 16px 24px 0; } }
   @media only screen and (min-width: 544px) {
     nav {
       padding: 0 0 12px; } }
@@ -5095,13 +5196,15 @@ nav {
     nav ul.main-nav {
       display: flex;
       width: 100%;
-      justify-content: center;
+      /*justify-content: center;*/
+      justify-content: space-around;
       align-items: center; } }
   @media screen and (min-width: 1320px) and (min-height: 788px) {
     nav ul.main-nav {
       position: relative;
       margin-left: -50px;
       transition: all 0.25s ease-in-out;
+      /*justify-content: space-between;*/
       justify-content: space-around; } }
   nav::after {
     content: '';
@@ -5146,6 +5249,8 @@ nav {
 
 body {
   height: 100%; }
+  body.mod1 nav.secondary {
+    border: none !important; }
   body.home #nav-logo a:hover {
     color: #FFF !important;
     cursor: default; }
@@ -5157,17 +5262,17 @@ body {
     border: 3px solid #FFF;
     border-width: 3px 0 0 0; }
     body.main .content.grocery {
-      background: transparent url("../img/grocery.png") no-repeat center center/cover; }
+      background: transparent url("../img/grocery.jpg") no-repeat center center/cover; }
     body.main .content.airport {
       background: transparent url("../img/airport.jpg") no-repeat center center/cover; }
     body.main .content.mechanic {
-      background: transparent url("../img/mechanic.png") no-repeat center center/cover; }
+      background: transparent url("../img/mechanic.jpg") no-repeat center center/cover; }
     body.main .content.baker {
-      background: transparent url("../img/baker.png") no-repeat center center/cover; }
+      background: transparent url("../img/baker.jpg") no-repeat center center/cover; }
     body.main .content.lady {
       background: transparent url("../img/lady.png") no-repeat center center/cover; }
     body.main .content.guy {
-      background: transparent url("../img/some-dude.png") no-repeat center center/cover; }
+      background: transparent url("../img/guy.jpg") no-repeat center center/cover; }
     body.main .content.aurora-fine-art {
       background: transparent url("../img/brands/web/aurora-fine-art/proof.jpg") no-repeat center center/cover; }
     body.main .content.ams-couriers {
@@ -5940,6 +6045,26 @@ iframe {
       display: block;
       margin-top: 16px;
       color: #FF6633; }
+
+.headerVideo {
+  margin-bottom: -2px; }
+  .headerVideo video {
+    display: block;
+    width: 100%; }
+  @media screen and (min-width: 1320px) and (min-height: 788px) {
+    .headerVideo {
+      position: relative;
+      width: 100%;
+      padding-bottom: 48%; }
+      .headerVideo video {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%; } }
+  @media screen and (min-width: 1680px) and (min-height: 788px) {
+    .headerVideo {
+      padding-bottom: 44%; } }
 
 /*ICONS FONTS {{{*/
 @font-face {

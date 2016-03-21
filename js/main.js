@@ -1,5 +1,6 @@
 var width;
 var height;
+var minH = 788;
 function getWindowAttributes() {
 	width = window.innerWidth
 		|| document.documentElement.clientWidth
@@ -89,7 +90,9 @@ function secondaryNav() {
 		//console.log(rect.top, rect.right, rect.bottom, rect.left);
 		topPosition = rect.top - ( navHeight - 2 );
 		//console.log("topPosition is " + topPosition);
-		$("#mainNav").css('top',topPosition);
+		if (width >= 1320 && height >= minH) {
+			$("#mainNav").css('top',topPosition);
+		}
 		if ( scroll >= stickHeight || scroll2 >= stickHeight ) {
 			//console.log("stick the SECONDARY nav");
 			$(secondarynav).addClass("fixed");

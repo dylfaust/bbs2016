@@ -29,8 +29,8 @@
 		<h4 data-toggle="modal" data-target="#myModal">Play Testimonial Video</h4>
 	</div>
 	<video autoplay loop poster="#" id="bgvid" muted>
-		<source src="/video/background/video.webm" type="video/webm">
-		<source src="/video/background/bg-vid.mp4" type="video/mp4">
+		<source src="/videos/background/video.webm" type="video/webm">
+		<source src="/videos/background/bg-vid.mp4" type="video/mp4">
 	</video>
 </div>
 <!-- Modal -->
