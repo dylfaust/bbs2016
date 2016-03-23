@@ -26,25 +26,46 @@
 				<p class="quote-author">Brooxie</p>
 			</li>
 		</ul>
-		<h4 data-toggle="modal" data-target="#myModal">Play Testimonial Video</h4>
+		<h4 data-toggle="modal" id="testimonialVideoPlay" data-target="#myModalTestimonial">Play Testimonial Video</h4>
 	</div>
 	<video autoplay loop poster="#" id="bgvid" muted>
 		<source src="/videos/background/video.webm" type="video/webm">
-		<source src="/videos/background/bg-vid.mp4" type="video/mp4">
+		<source src="/videos/background/video.mp4" type="video/mp4">
 	</video>
 </div>
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-		<h4 class="modal-title" id="myModalLabel">Testimonial Video</h4>
+		<h4 class="modal-title" id="myModalLabel"></h4>
       </div>
       <div class="modal-body">
-	<iframe src="https://player.vimeo.com/video/106447764" id="vimeo-iframe" width="100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<div class="modalVideo" id="modalVideoArea">
+	</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		<!--<button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModalTestimonial" tabindex="-1" role="dialog" aria-labelledby="myModalLabelTestimonial">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+		<h4 class="modal-title" id="myModalLabelTestimonial">Testimonial Video</h4>
+      </div>
+      <div class="modal-body">
+		<iframe src="https://player.vimeo.com/video/106447764" id="vimeo-iframe" width="100%" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

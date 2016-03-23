@@ -118,3 +118,7 @@ function resize() {
 window.onresize = resize;
 window.onscroll = scroll;;
 window.onload = start;
+//$("#testimonialVideoPlay").on('click',function() {
+	//$("#vimeo-iframe").css('display','block');
+	//$("#modalVideoArea").hide();
+//});

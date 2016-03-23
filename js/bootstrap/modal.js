@@ -59,7 +59,7 @@ var Modal = (function ($) {
   var ClassName = {
     SCROLLBAR_MEASURER: 'modal-scrollbar-measure',
     BACKDROP: 'modal-backdrop',
-    OPEN: 'modal-open',
+    OPEN: 'modal-ope2n',
     FADE: 'fade',
     IN: 'in'
   };
