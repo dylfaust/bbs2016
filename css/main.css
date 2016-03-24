@@ -5658,6 +5658,24 @@ iframe {
   .web-directions .rightContainer {
     padding-left: 100px; } }
 
+h1.greySpecial {
+  padding: 16px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #6A6A7A;
+  text-transform: uppercase;
+  display: block;
+  text-align: center; }
+
+.off-the-grid.static .existence .matrix {
+  z-index: 5 !important;
+  border: none;
+  background: #FFF; }
+  .off-the-grid.static .existence .matrix .item {
+    border: 1px solid #6A6A7A;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 .off-the-grid > h1 {
   padding: 16px;
   font-weight: 700;
@@ -6028,6 +6046,16 @@ iframe {
   padding: 2px 12px;
   display: inline-block; }
   .btn.btn-orange:hover {
+    text-decoration: none; }
+.btn.btn-inverse {
+  background: #FFF;
+  color: #6A6A7A !important;
+  padding: 6px 24px;
+  display: inline-block;
+  border: 1px solid #6A6A7A;
+  transition: all 0.25s ease-in-out; }
+  .btn.btn-inverse:hover {
+    background: #E4E4E4;
     text-decoration: none; }
 
 .secondaryShowcase.payup {
@@ -6403,5 +6431,40 @@ h2.title {
 .carouselContainer {
   padding: 0 50px;
   background: #071731; }
+
+.row.centered-text {
+  text-align: center;
+  margin-bottom: 2rem; }
+  .row.centered-text h1 {
+    display: block;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 800; }
+
+.video-lists {
+  margin-top: 2rem; }
+  .video-lists.showmore {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.25s ease-in-out;
+    margin-top: 0; }
+    @media only screen and (min-width: 992px) {
+      .video-lists.showmore {
+        display: block; } }
+    .video-lists.showmore .youtube-container {
+      margin-top: 0 !important; }
+    .video-lists.showmore.active {
+      max-height: 3000px; }
+
+button.arrow-down {
+  transition: all 0.25s ease-in-out;
+  opacity: 1;
+  display: none !important; }
+  @media only screen and (min-width: 992px) {
+    button.arrow-down {
+      display: inline-block !important; } }
+  button.arrow-down.active {
+    opacity: 0; }
 
 /*# sourceMappingURL=main.css.map */
