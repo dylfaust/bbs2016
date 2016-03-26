@@ -190,7 +190,7 @@
 <script>
 function start() {
 	main();
-	parallax();
+	//parallax();
 }
 </script>
 <?php include 'scripts.php'; ?>

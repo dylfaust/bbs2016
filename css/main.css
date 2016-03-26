@@ -4688,8 +4688,7 @@ img {
 
 video {
   max-width: 100%;
-  /*height: auto;*/
-  background: #000; }
+  /*height: auto;*/ }
 
 nav ul {
   margin: 0;
@@ -4935,7 +4934,7 @@ header {
         width: 100%;
         height: 100%; }
         header .citySky .city {
-          background: url("../img/city.png") no-repeat bottom 70% center/cover;
+          background: transparent url("../img/city.png") no-repeat bottom 70% center/cover;
           width: 100%;
           height: 100%;
           position: absolute;
@@ -4949,7 +4948,11 @@ header {
           height: 100%;
           top: 0;
           left: 0;
-          background: #6B9DCC; }
+          background: #6B9DCC;
+          background: -moz-linear-gradient(top, #6b9dcc 0%, #7db9e8 30%);
+          background: -webkit-linear-gradient(top, #6b9dcc 0%, #7db9e8 30%);
+          background: linear-gradient(to bottom, #6b9dcc 0%, #7db9e8 30%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b9dcc', endColorstr='#7db9e8',GradientType=0 ); }
           header .citySky .sky video {
             width: 100%; } }
   @media only screen and (min-width: 992px) {
@@ -5274,16 +5277,61 @@ body {
     border-width: 3px 0 0 0; }
     body.main .content.grocery {
       background: transparent url("../img/grocery.jpg") no-repeat center center/cover; }
+      @media only screen and (min-width: 992px) {
+        body.main .content.grocery {
+          background-position: top 8% center; } }
+      @media only screen and (min-width: 1320px) {
+        body.main .content.grocery {
+          background-position: top 11% center; } }
+      @media only screen and (min-width: 1680px) {
+        body.main .content.grocery {
+          background-position: top 16% center; } }
     body.main .content.airport {
       background: transparent url("../img/airport.jpg") no-repeat center center/cover; }
     body.main .content.mechanic {
       background: transparent url("../img/mechanic.jpg") no-repeat center center/cover; }
+      @media only screen and (min-width: 992px) {
+        body.main .content.mechanic {
+          background-position: top 8% center; } }
+      @media only screen and (min-width: 1320px) {
+        body.main .content.mechanic {
+          background-position: top 11% center; } }
+      @media only screen and (min-width: 1680px) {
+        body.main .content.mechanic {
+          background-position: top 16% center; } }
     body.main .content.baker {
       background: transparent url("../img/baker.jpg") no-repeat center center/cover; }
+      @media only screen and (min-width: 992px) {
+        body.main .content.baker {
+          background-position: top 8% center; } }
+      @media only screen and (min-width: 1320px) {
+        body.main .content.baker {
+          background-position: top 11% center; } }
+      @media only screen and (min-width: 1680px) {
+        body.main .content.baker {
+          background-position: top 16% center; } }
     body.main .content.lady {
       background: transparent url("../img/lady.png") no-repeat center center/cover; }
+      @media only screen and (min-width: 992px) {
+        body.main .content.lady {
+          background-position: top 46% center; } }
+      @media only screen and (min-width: 1320px) {
+        body.main .content.lady {
+          background-position: top 31% center; } }
+      @media only screen and (min-width: 1680px) {
+        body.main .content.lady {
+          background-position: top 36% center; } }
     body.main .content.guy {
       background: transparent url("../img/guy.jpg") no-repeat center center/cover; }
+      @media only screen and (min-width: 992px) {
+        body.main .content.guy {
+          background-position: top 14% center; } }
+      @media only screen and (min-width: 1320px) {
+        body.main .content.guy {
+          background-position: top 17% center; } }
+      @media only screen and (min-width: 1680px) {
+        body.main .content.guy {
+          background-position: top 23% center; } }
     body.main .content.aurora-fine-art {
       background: transparent url("../img/brands/web/aurora-fine-art/proof.jpg") no-repeat center center/cover; }
     body.main .content.ams-couriers {
@@ -5559,69 +5607,87 @@ iframe {
         .web-directions .step p {
           font-size: 18px; } }
   .web-directions .steps {
-    width: 250px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
-    position: relative; }
+    position: absolute;
+    right: 16px;
+    top: -50px;
+    /*background: #000 url('../img/disc.svg') no-repeat center center / contain;*/
+    background-image: url("../img/disc.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border-radius: 100px;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (min-width: 544px) {
+      .web-directions .steps {
+        right: 32px; } }
     @media only screen and (min-width: 992px) {
       .web-directions .steps {
+        display: inline-block;
         width: 350px;
-        height: 400px; } }
+        height: 400px;
+        right: auto;
+        top: auto; } }
     .web-directions .steps h1 {
-      color: #FFF;
-      position: absolute;
-      top: auto;
-      left: auto;
-      right: auto;
-      bottom: auto; }
+      color: #FFF; }
       @media only screen and (min-width: 992px) {
         .web-directions .steps h1 {
-          font-size: 64px; } }
+          font-size: 64px;
+          position: absolute !important;
+          top: auto;
+          left: auto;
+          right: auto;
+          bottom: auto; } }
   .web-directions .step1 {
-    background: url("../img/defiance.svg") no-repeat center center/contain; }
-    .web-directions .step1 h1 {
-      bottom: 58px;
-      right: 37px; }
-      @media only screen and (min-width: 992px) {
-        .web-directions .step1 h1 {
-          bottom: 69px;
-          right: 49px; } }
+    background-color: #34A64D; }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step1 {
+        background: url("../img/defiance.svg") no-repeat center center/contain; } }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step1 h1 {
+        bottom: 69px;
+        right: 49px; } }
   .web-directions .step2 {
-    background: url("../img/library.svg") no-repeat center center/contain; }
-    .web-directions .step2 h1 {
-      bottom: 54px;
-      left: 37px; }
-      @media only screen and (min-width: 992px) {
-        .web-directions .step2 h1 {
-          bottom: 63px;
-          left: 48px; } }
+    background-color: #DB7336; }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step2 {
+        background: url("../img/library.svg") no-repeat center center/contain; } }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step2 h1 {
+        bottom: 63px;
+        left: 48px; } }
   .web-directions .step3 {
-    background: url("../img/lenova.svg") no-repeat center center/contain; }
-    .web-directions .step3 h1 {
-      bottom: 50px;
-      right: 39px; }
-      @media only screen and (min-width: 992px) {
-        .web-directions .step3 h1 {
-          bottom: 57px;
-          right: 51px; } }
+    background-color: #6E70B1; }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step3 {
+        background: url("../img/lenova.svg") no-repeat center center/contain; } }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step3 h1 {
+        bottom: 57px;
+        right: 51px; } }
   .web-directions .step4 {
-    background: url("../img/codathon.svg") no-repeat center center/contain; }
-    .web-directions .step4 h1 {
-      bottom: 58px;
-      left: 50px; }
-      @media only screen and (min-width: 992px) {
-        .web-directions .step4 h1 {
-          bottom: 67px;
-          left: 67px; } }
+    background-color: #5B8EC9; }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step4 {
+        background: url("../img/codathon.svg") no-repeat center center/contain; } }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step4 h1 {
+        bottom: 67px;
+        left: 67px; } }
   .web-directions .step5 {
-    background: url("../img/space.svg") no-repeat center center/contain; }
-    .web-directions .step5 h1 {
-      bottom: 58px;
-      right: 37px; }
-      @media only screen and (min-width: 992px) {
-        .web-directions .step5 h1 {
-          bottom: 68px;
-          right: 49px; } }
+    background-color: #4BA84B; }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step5 {
+        background: url("../img/space.svg") no-repeat center center/contain; } }
+    @media only screen and (min-width: 992px) {
+      .web-directions .step5 h1 {
+        bottom: 68px;
+        right: 49px; } }
 
 .stepsContainer {
   position: relative; }
@@ -5651,8 +5717,22 @@ iframe {
           padding-right: 300px; } }
   @media only screen and (min-width: 992px) {
     .stepsContainer {
-      margin: -95px 0; } }
+      margin: -95px 0; }
+      .stepsContainer.modded1 {
+        margin-top: -120px; } }
 
+.web-directions .apieceofit {
+  padding-top: 77px; }
+  .web-directions .apieceofit h1, .web-directions .apieceofit p {
+    position: relative;
+    z-index: 100; }
+  @media only screen and (min-width: 992px) {
+    .web-directions .apieceofit {
+      padding-top: 0;
+      padding-top: 138px; } }
+  @media only screen and (min-width: 1320px) {
+    .web-directions .apieceofit {
+      padding-top: initial; } }
 @media only screen and (min-width: 992px) {
   .web-directions .leftContainer {
     padding-right: 100px; }
@@ -5722,8 +5802,12 @@ h1.greySpecial {
   margin: 0 auto;
   position: relative;
   align-items: flex-start;
-  background: #000;
-  height: 100%; }
+  height: 100%;
+  background: #ffffff;
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e2e3e4 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #e2e3e4 100%);
+  background: radial-gradient(ellipse at center, #ffffff 0%, #e2e3e4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e3e4',GradientType=1 ); }
   .matrix.onelevel .item.active, .matrix.onelevel .item.brother {
     min-height: 100vh; }
     @media screen and (min-width: 1320px) and (min-height: 788px) {
@@ -5788,12 +5872,12 @@ h1.greySpecial {
           width: 285px;
           /*height: $minHeightSmall;*/
           height: calc(100vh - 113px);
-          max-width: 100%;
           /*max-height: $minHeightSmall;*/
           /*max-height: calc(100vh - 113px);*/
           max-height: 387px; }
           @media screen and (min-width: 1320px) and (min-height: 788px) {
             .matrix .item.active .item-body .layout .tabletShine {
+              max-width: 100%;
               width: 329px;
               height: 440px;
               max-height: 100%; } }
@@ -5862,7 +5946,6 @@ h1.greySpecial {
     opacity: 0;
     min-width: 100%;
     /*height: 100%;*/
-    background: #000;
     position: absolute;
     min-height: 0;
     left: 0;
@@ -5880,6 +5963,7 @@ h1.greySpecial {
       overflow: hidden;
       position: relative; }
       .matrix .item-body .layout > .full {
+        display: none;
         /*overflow: auto;*/
         /*max-height: 100%;*/
         width: 100%;
@@ -5888,6 +5972,7 @@ h1.greySpecial {
           width: 100%; }
         @media only screen and (min-width: 992px) {
           .matrix .item-body .layout > .full {
+            display: block;
             max-height: 100%;
             /*overflow: auto;*/
             /*overflow: initial;*/
@@ -5901,14 +5986,18 @@ h1.greySpecial {
       .matrix .item-body .layout .phoneShine {
         height: 100%;
         max-height: 379px;
-        position: absolute;
+        position: relative;
         z-index: +5;
-        left: 0;
-        bottom: 0;
-        display: none; }
+        /*display: none;*/ }
+        @media only screen and (min-width: 768px) {
+          .matrix .item-body .layout .phoneShine {
+            display: none; } }
         @media only screen and (min-width: 992px) {
           .matrix .item-body .layout .phoneShine {
-            display: block; } }
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0; } }
         @media screen and (min-width: 1320px) and (min-height: 788px) {
           .matrix .item-body .layout .phoneShine {
             left: 2px;
@@ -5936,13 +6025,19 @@ h1.greySpecial {
       .matrix .item-body .layout .tabletShine {
         height: 100%;
         max-height: 441px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        display: none; }
-        @media only screen and (min-width: 992px) {
+        display: none;
+        position: relative;
+        width: 100%; }
+        @media only screen and (min-width: 768px) {
           .matrix .item-body .layout .tabletShine {
             display: block; } }
+        @media only screen and (min-width: 992px) {
+          .matrix .item-body .layout .tabletShine {
+            position: absolute;
+            /*right: 0;*/
+            /*bottom: 0;*/
+            left: 7%;
+            bottom: 9%; } }
         @media screen and (min-width: 1320px) and (min-height: 788px) {
           .matrix .item-body .layout .tabletShine {
             right: auto;
@@ -5978,23 +6073,6 @@ h1.greySpecial {
       @media screen and (min-width: 1320px) and (min-height: 788px) {
         .matrix .item-body img.full {
           max-width: 100%; } }
-    .matrix .item-body.custom1 {
-      background: #000; }
-    .matrix .item-body.custom2 {
-      /*background: $blue;*/
-      background: #000; }
-    .matrix .item-body.custom3 {
-      /*background: #00FFDD;*/
-      background: #000; }
-    .matrix .item-body.custom4 {
-      /*background: #777;*/
-      background: #000; }
-    .matrix .item-body.custom5 {
-      /*background: #777DDD;*/
-      background: #000; }
-    .matrix .item-body.custom6 {
-      /*background: #007770;*/
-      background: #000; }
   @media screen and (min-width: 1320px) and (min-height: 788px) {
     .matrix {
       z-index: +50005; }
@@ -6021,15 +6099,23 @@ h1.greySpecial {
     .ribbon .container {
       display: flex;
       flex-direction: row;
-      align-items: center; }
+      align-items: center;
+      flex-wrap: wrap; }
       .ribbon .container h1 {
         flex: 1 0 auto;
         padding-right: 16px; } }
+  @media only screen and (min-width: 1320px) {
+    .ribbon .container {
+      flex-wrap: nowrap; } }
   .ribbon.orange {
     background: #DE6D45; }
   .ribbon h1 {
     display: block;
-    text-align: center; }
+    text-align: center;
+    font-size: 24px; }
+    @media only screen and (min-width: 992px) {
+      .ribbon h1 {
+        font-size: 2.5rem; } }
   .ribbon .btn {
     margin: 6px 0;
     display: inline-block;

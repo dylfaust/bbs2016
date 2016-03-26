@@ -112,7 +112,7 @@ function secondaryScroll() {
 }
 function resize() {
 	//console.log("Window resized");
-	parallax();
+	//parallax();
 	fixedNav();
 }
 window.onresize = resize;

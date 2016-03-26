@@ -179,7 +179,7 @@ var width = window.innerWidth
 || document.documentElement.clientWidth
 || document.body.clientWidth;
 $(function() {
-	if ( width >= 992 ) {
+	if ( width >= 240 ) {
 			$(".viewport").niceScroll({
 			zindex: "1",
 			background: "rgba(0,0,0,0.2)",

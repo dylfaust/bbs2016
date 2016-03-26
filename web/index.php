@@ -33,7 +33,7 @@
 			</div>
 		</div>
 		<div class="container web-directions">
-			<div class="leftContainer">
+			<div class="apieceofit leftContainer">
 				<div class="stepsContainer left">
 					<div class="step1 steps">
 						<h1>1</h1>
@@ -45,8 +45,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="rightContainer">
-				<div class="stepsContainer right">
+			<div class="apieceofit rightContainer">
+				<div class="stepsContainer right modded1">
 					<div class="step2 steps">
 						<h1>2</h1>
 					</div>
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="leftContainer">
+			<div class="apieceofit leftContainer">
 				<div class="stepsContainer left">
 					<div class="step3 steps">
 						<h1>3</h1>
@@ -69,7 +69,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="rightContainer">
+			<div class="apieceofit rightContainer">
 				<div class="stepsContainer right">
 					<div class="step4 steps">
 						<h1>4</h1>
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="leftContainer">
+			<div class="apieceofit leftContainer">
 				<div class="stepsContainer left">
 					<div class="step5 steps">
 						<h1>5</h1>

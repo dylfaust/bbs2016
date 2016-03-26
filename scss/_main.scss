@@ -19,7 +19,7 @@ $grey: #6A6A7A;
 $lightGrey: #E4E4E4;
 $lightOrange: #DE6D45;
 $navHeight: 100px;
-
+$skyBlue: #6B9DCC;
 $darkBlue: #071731;
 $plainOrange: #B85F37;
 $coldGrey: #B8C2Be;
@@ -52,7 +52,7 @@ header {
 			width: 100%;
 			height: 100%;
 			.city {
-				background: url('../img/city.png') no-repeat bottom 70% center / cover;
+				background: transparent url('../img/city.png') no-repeat bottom 70% center / cover;
 				width: 100%;
 				height: 100%;
 				position: absolute;
@@ -67,10 +67,14 @@ header {
 				height: 100%;
 				top: 0;
 				left: 0;
-				background: #6B9DCC;
 				video {
 					width: 100%;
 				}
+				background: $skyBlue;
+				background: -moz-linear-gradient(top,  #6b9dcc 0%, #7db9e8 30%);
+				background: -webkit-linear-gradient(top,  #6b9dcc 0%,#7db9e8 30%);
+				background: linear-gradient(to bottom,  #6b9dcc 0%,#7db9e8 30%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b9dcc', endColorstr='#7db9e8',GradientType=0 );
 			}
 		}
 	}
@@ -481,21 +485,66 @@ body {
 			border-width: 3px 0 0 0;
 			&.grocery {
 				background: transparent url('../img/grocery.jpg') no-repeat center center / cover;
+				@media only screen and (min-width: $lg-breakpoint) {
+					background-position: top 8% center;
+				}
+				@media only screen and (min-width: $xl-breakpoint) {
+					background-position: top 11% center;
+				}
+				@media only screen and (min-width: $xxl-breakpoint) {
+					background-position: top 16% center;
+				}
 			}
 			&.airport {
 				background: transparent url('../img/airport.jpg') no-repeat center center / cover;
 			}
 			&.mechanic {
 				background: transparent url('../img/mechanic.jpg') no-repeat center center / cover;
+				@media only screen and (min-width: $lg-breakpoint) {
+					background-position: top 8% center;
+				}
+				@media only screen and (min-width: $xl-breakpoint) {
+					background-position: top 11% center;
+				}
+				@media only screen and (min-width: $xxl-breakpoint) {
+					background-position: top 16% center;
+				}
 			}
 			&.baker {
 				background: transparent url('../img/baker.jpg') no-repeat center center / cover;
+				@media only screen and (min-width: $lg-breakpoint) {
+					background-position: top 8% center;
+				}
+				@media only screen and (min-width: $xl-breakpoint) {
+					background-position: top 11% center;
+				}
+				@media only screen and (min-width: $xxl-breakpoint) {
+					background-position: top 16% center;
+				}
 			}
 			&.lady {
 				background: transparent url('../img/lady.png') no-repeat center center / cover;
+				@media only screen and (min-width: $lg-breakpoint) {
+					background-position: top 46% center;
+				}
+				@media only screen and (min-width: $xl-breakpoint) {
+					background-position: top 31% center;
+				}
+				@media only screen and (min-width: $xxl-breakpoint) {
+					background-position: top 36% center;
+				}
 			}
 			&.guy {
 				background: transparent url('../img/guy.jpg') no-repeat center center / cover;
+				@media only screen and (min-width: $lg-breakpoint) {
+					background-position: top 14% center;
+				}
+				@media only screen and (min-width: $xl-breakpoint) {
+					background-position: top 17% center;
+				}
+				@media only screen and (min-width: $xxl-breakpoint) {
+					background-position: top 23% center;
+				}
 			}
 			&.aurora-fine-art {
 				background: transparent url('../img/brands/web/aurora-fine-art/proof.jpg') no-repeat center center / cover;
@@ -864,31 +913,50 @@ iframe {
 		}
 	}
 	.steps {
-		width: 250px;
-		height: 300px;
+		width: 100px;
+		height: 100px;
 		display: inline-block;
-		position: relative;
+		position: absolute;
+		right: 16px;
+		top: -50px;
+		@media only screen and (min-width: $sm-breakpoint) {
+			right: 32px;
+		}
+		/*background: #000 url('../img/disc.svg') no-repeat center center / contain;*/
+		background-image: url('../img/disc.svg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
+		border-radius: 100px;
+		background-color: #e3e3e3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		@media only screen and (min-width: $lg-breakpoint) {
+			display: inline-block;
 			width: 350px;
 			height: 400px;
+			right: auto;
+			top: auto;
 		}
 		h1 {
 			color: #FFF;
-			position: absolute;
-			top: auto;
-			left: auto;
-			right: auto;
-			bottom: auto;
 			@media only screen and (min-width: $lg-breakpoint) {
 				font-size: 64px;
+				position: absolute !important;
+				top: auto;
+				left: auto;
+				right: auto;
+				bottom: auto;
 			}
 		}
 	}
 	.step1 {
-		background: url('../img/defiance.svg') no-repeat center center / contain;
+		background-color: #34A64D;
+		@media only screen and (min-width: $lg-breakpoint) {
+			background: url('../img/defiance.svg') no-repeat center center / contain;
+		}
 		h1 {
-			bottom: 58px;
-			right: 37px;
 			@media only screen and (min-width: $lg-breakpoint) {
 				bottom: 69px;
 				right: 49px;
@@ -896,10 +964,11 @@ iframe {
 		}
 	}
 	.step2 {
-		background: url('../img/library.svg') no-repeat center center / contain;
+		background-color: #DB7336;
+		@media only screen and (min-width: $lg-breakpoint) {
+			background: url('../img/library.svg') no-repeat center center / contain;
+		}
 		h1 {
-			bottom: 54px;
-			left: 37px;
 			@media only screen and (min-width: $lg-breakpoint) {
 				bottom: 63px;
 				left: 48px;
@@ -907,10 +976,11 @@ iframe {
 		}
 	}
 	.step3 {
-		background: url('../img/lenova.svg') no-repeat center center / contain;
+		background-color: #6E70B1;
+		@media only screen and (min-width: $lg-breakpoint) {
+			background: url('../img/lenova.svg') no-repeat center center / contain;
+		}
 		h1 {
-			bottom: 50px;
-			right: 39px;
 			@media only screen and (min-width: $lg-breakpoint) {
 				bottom: 57px;
 				right: 51px;
@@ -918,10 +988,11 @@ iframe {
 		}
 	}
 	.step4 {
-		background: url('../img/codathon.svg') no-repeat center center / contain;
+		background-color: #5B8EC9;
+		@media only screen and (min-width: $lg-breakpoint) {
+			background: url('../img/codathon.svg') no-repeat center center / contain;
+		}
 		h1 {
-			bottom: 58px;
-			left: 50px;
 			@media only screen and (min-width: $lg-breakpoint) {
 				bottom: 67px;
 				left: 67px;
@@ -929,10 +1000,11 @@ iframe {
 		}
 	}
 	.step5 {
-		background: url('../img/space.svg') no-repeat center center / contain;
+		background-color: #4BA84B;
+		@media only screen and (min-width: $lg-breakpoint) {
+			background: url('../img/space.svg') no-repeat center center / contain;
+		}
 		h1 {
-			bottom: 58px;
-			right: 37px;
 			@media only screen and (min-width: $lg-breakpoint) {
 				bottom: 68px;
 				right: 49px;
@@ -979,9 +1051,26 @@ $padding1: 300px;
 	}
 	@media only screen and (min-width: $lg-breakpoint) {
 		margin: -95px 0;
+		&.modded1 {
+			margin-top: -120px;
+		}
 	}
 }
 .web-directions {
+	.apieceofit {
+		h1,p {
+			position: relative;
+			z-index: 100;
+		}
+		padding-top: 77px;
+		@media only screen and (min-width: $lg-breakpoint) {
+			padding-top: 0;
+			padding-top: 138px;
+		}
+		@media only screen and (min-width: $xl-breakpoint) {
+			padding-top: initial;
+		}
+	}
 	@media only screen and (min-width: $lg-breakpoint) {
 		.leftContainer {
 			padding-right: 100px;
@@ -1069,8 +1158,12 @@ $baseHeightSpecial: 100vh;
 	margin: 0 auto;
 	position: relative;
 	align-items: flex-start;
-	background: #000;
 	height: 100%;
+		background: #ffffff;
+		background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #e2e3e4 100%);
+		background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#e2e3e4 100%);
+		background: radial-gradient(ellipse at center,  #ffffff 0%,#e2e3e4 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e3e4',GradientType=1 );
 	&.onelevel {
 		.item {
 			&.active, &.brother {
@@ -1165,11 +1258,11 @@ $baseHeightSpecial: 100vh;
 						width: 285px;
 						/*height: $minHeightSmall;*/
 						height: calc(#{$baseHeight} - #{$itemHeight * 1});
-						max-width: 100%;
 						/*max-height: $minHeightSmall;*/
 						/*max-height: calc(#{$baseHeight} - #{$itemHeight * 1});*/
 						max-height: 387px;
 						@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
+							max-width: 100%;
 							width: 329px;
 							height: 440px;
 							max-height: 100%;
@@ -1249,7 +1342,6 @@ $baseHeightSpecial: 100vh;
 		opacity: 0;
 		min-width: 100%;
 		/*height: 100%;*/
-		background: #000;
 		position: absolute;
 		min-height: 0;
 		left: 0;
@@ -1262,6 +1354,7 @@ $baseHeightSpecial: 100vh;
 		transition: all .5s ease-in-out;
 		.layout {
 			>.full {
+				display: none;
 				img {
 					width: 100%;
 				}
@@ -1270,6 +1363,7 @@ $baseHeightSpecial: 100vh;
 				width: 100%;
 				/*max-width: 90%;*/
 				@media only screen and (min-width: $lg-breakpoint) {
+					display: block;
 					max-height: 100%;
 					/*overflow: auto;*/
 					/*overflow: initial;*/
@@ -1293,13 +1387,17 @@ $baseHeightSpecial: 100vh;
 			.phoneShine {
 				height: 100%;
 				max-height: 379px;
-				position: absolute;
+				position: relative;
 				z-index: +5;
-				left: 0;
-				bottom: 0;
-				display: none;
+				/*display: none;*/
+				@media only screen and (min-width: $md-breakpoint) {
+					display: none;
+				}
 				@media only screen and (min-width: $lg-breakpoint) {
 					display: block;
+					position: absolute;
+					left: 0;
+					bottom: 0;
 				}
 				@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
 					left: 2px;
@@ -1332,12 +1430,18 @@ $baseHeightSpecial: 100vh;
 			.tabletShine {
 				height: 100%;
 				max-height: 441px;
-				position: absolute;
-				right: 0;
-				bottom: 0;
 				display: none;
-				@media only screen and (min-width: $lg-breakpoint) {
+				position: relative;
+				width: 100%;
+				@media only screen and (min-width: $md-breakpoint) {
 					display: block;
+				}
+				@media only screen and (min-width: $lg-breakpoint) {
+					position: absolute;
+					/*right: 0;*/
+					/*bottom: 0;*/
+					left: 7%;
+					bottom: 9%;
 				}
 				@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
 					right: auto;
@@ -1382,29 +1486,6 @@ $baseHeightSpecial: 100vh;
 				}
 			}
 		}
-		&.custom1 {
-			background: #000;
-		}
-		&.custom2 {
-			/*background: $blue;*/
-			background: #000;
-		}
-		&.custom3 {
-			/*background: #00FFDD;*/
-			background: #000;
-		}
-		&.custom4 {
-			/*background: #777;*/
-			background: #000;
-		}
-		&.custom5 {
-			/*background: #777DDD;*/
-			background: #000;
-		}
-		&.custom6 {
-			/*background: #007770;*/
-			background: #000;
-		}
 	}
 	@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
 		z-index: +50005;
@@ -1437,10 +1518,14 @@ $baseHeightSpecial: 100vh;
 			display: flex;
 			flex-direction: row;
 			align-items: center;
+			flex-wrap: wrap;
 			h1 {
 				flex: 1 0 auto;
 				padding-right: 16px;
 			}
+		}
+		@media only screen and (min-width: $xl-breakpoint) {
+			flex-wrap: nowrap;
 		}
 	}
 	&.orange {
@@ -1452,6 +1537,10 @@ $baseHeightSpecial: 100vh;
 	h1 {
 		display: block;
 		text-align: center;
+		font-size: 24px;
+		@media only screen and (min-width: $lg-breakpoint) {
+			font-size: 2.5rem;
+		}
 	}
 	.btn {
 		margin: 6px 0;

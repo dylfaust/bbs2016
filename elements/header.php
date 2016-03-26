@@ -11,11 +11,11 @@
 				<source src="/videos/sky/video.webm" type="video/webm">
 				<source src="/videos/sky/video.mp4" type="video/mp4">
 				-->
-				<!--
 				<source src="/videos/sky/high-def/video.mp4" type="video/mp4">
 				<source src="/videos/sky/high-def/video.webm" type="video/webm">
-				-->
+				<!--
 				<source src="/videos/sky/high-def/in.mp4" type="video/mp4">
+				-->
 			</video>
 		</div>
 	</div>
