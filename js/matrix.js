@@ -194,19 +194,19 @@ $(function() {
 			hwacceleration: true,
 			bouncescroll: true
 		});
-		$(".scroller").niceScroll({
-			zindex: "500",
-			background: "rgba(0,0,0,0.2)",
-			cursorcolor: "#08162C",
-			cursorborder: "1px solid rgba(255,255,255,0.0)",
-			cursorwidth: "5px",
-			cursorborderradius: "10px",
-			cursoropacitymin: 0,
-			cursoropacity: .8,
-			scrollspeed: 60,
-			mousescrollstep: 60,
-			hwacceleration: true,
-			bouncescroll: true
-		});
+		//$(".scroller").niceScroll({
+			//zindex: "500",
+			//background: "rgba(0,0,0,0.2)",
+			//cursorcolor: "#08162C",
+			//cursorborder: "1px solid rgba(255,255,255,0.0)",
+			//cursorwidth: "5px",
+			//cursorborderradius: "10px",
+			//cursoropacitymin: 0,
+			//cursoropacity: .8,
+			//scrollspeed: 60,
+			//mousescrollstep: 60,
+			//hwacceleration: true,
+			//bouncescroll: true
+		//});
 	}
 });

@@ -297,7 +297,6 @@ nav {
 	a {
 		color: #FFF;
 		font-size: 18px;
-		transition: $secondaryTransition;
 		display: block;
 		padding: 4px 16px;
 		@media only screen and (min-width: $sm-breakpoint) {
@@ -664,6 +663,11 @@ body {
 			background: $blue !important;
 			@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
 				/*height: 94px !important;*/
+			}
+			nav {
+				background: $blue;
+				@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
+				}
 			}
 		}
 	}
@@ -1267,7 +1271,8 @@ $baseHeightSpecial: 100vh;
 				/*max-width: 90%;*/
 				@media only screen and (min-width: $lg-breakpoint) {
 					max-height: 100%;
-					overflow: auto;
+					/*overflow: auto;*/
+					/*overflow: initial;*/
 					z-index: 499;
 					position: relative;
 				}
@@ -1534,6 +1539,10 @@ $baseHeightSpecial: 100vh;
 			width: 500px;
 			bottom: 10%;
 			right: 7%;
+			z-index: 9;
+		}
+		@media screen and (min-width: $xl-breakpoint) and (min-height: $minH) {
+			bottom: 18%;
 		}
 	}
 	.testimonials {
@@ -1918,6 +1927,11 @@ h2 {
 	}
 }
 .video-lists {
+	&.full {
+		.youtube-container {
+			max-width: 100%;
+		}
+	}
 	margin-top: $spacer*2;
 	&.showmore {
 		display: none;

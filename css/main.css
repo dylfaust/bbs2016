@@ -5127,7 +5127,6 @@ nav {
   nav a {
     color: #FFF;
     font-size: 18px;
-    transition: all 0.25s ease-in-out;
     display: block;
     padding: 4px 16px; }
     @media only screen and (min-width: 544px) {
@@ -5395,6 +5394,8 @@ body {
     @media screen and (min-width: 1320px) and (min-height: 788px) {
       body.secondary header {
         /*height: 94px !important;*/ } }
+    body.secondary header nav {
+      background: #08162C; }
 
 ul.menu {
   padding: 0;
@@ -5888,7 +5889,8 @@ h1.greySpecial {
         @media only screen and (min-width: 992px) {
           .matrix .item-body .layout > .full {
             max-height: 100%;
-            overflow: auto;
+            /*overflow: auto;*/
+            /*overflow: initial;*/
             z-index: 499;
             position: relative; } }
       @media screen and (min-width: 1320px) and (min-height: 788px) {
@@ -6100,7 +6102,11 @@ h1.greySpecial {
         background: rgba(8, 22, 44, 0.8);
         width: 500px;
         bottom: 10%;
-        right: 7%; } }
+        right: 7%;
+        z-index: 9; } }
+    @media screen and (min-width: 1320px) and (min-height: 788px) {
+      .headerVideo .captions {
+        bottom: 18%; } }
   .headerVideo .testimonials {
     margin: 0;
     padding: 16px; }
@@ -6443,6 +6449,8 @@ h2.title {
 
 .video-lists {
   margin-top: 2rem; }
+  .video-lists.full .youtube-container {
+    max-width: 100%; }
   .video-lists.showmore {
     display: none;
     max-height: 0;
