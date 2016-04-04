@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="49.154625"
+   height="45.173626"
+   id="svg436406">
+  <defs
+     id="defs436408">
+    <clipPath
+       id="clipPath2948">
+      <path
+         d="m 365.624,3484.226 53.586,0 0,25.206 -53.586,0 0,-25.206 z"
+         id="path2950" />
+    </clipPath>
+    <clipPath
+       id="clipPath548">
+      <path
+         d="m 501.624,3484.226 53.586,0 0,25.206 -53.586,0 0,-25.206 z"
+         id="path550" />
+    </clipPath>
+    <clipPath
+       id="clipPath604">
+      <path
+         d="m 640.533,3488.299 43.968,0 0,20.978 -43.968,0 0,-20.978 z"
+         id="path606" />
+    </clipPath>
+    <clipPath
+       id="clipPath616">
+      <path
+         d="m 765.748,3488.299 44.127,0 0,21.27 -44.127,0 0,-21.27 z"
+         id="path618" />
+    </clipPath>
+    <clipPath
+       id="clipPath628">
+      <path
+         d="m 895.57,3488.299 42.597,0 0,21.002 -42.597,0 0,-21.002 z"
+         id="path630" />
+    </clipPath>
+    <clipPath
+       id="clipPath672">
+      <path
+         d="m 1009.675,3487.662 46.771,0 0,22.182 -46.771,0 0,-22.182 z"
+         id="path674" />
+    </clipPath>
+    <clipPath
+       id="clipPath648">
+      <path
+         d="m 0,3984 1356.006,0 0,-3984 L 0,0 0,3984 z"
+         id="path650" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata436411">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-1070.0717,-90.284775)"
+     id="layer1">
+    <g
+       transform="matrix(1.25,0,0,-1.25,-323.89905,4480.8749)"
+       id="g644"
+       style="fill:#000000">
+      <g
+         clip-path="url(#clipPath648)"
+         id="g646"
+         style="fill:#000000">
+        <g
+           transform="translate(1142.1758,3478.1772)"
+           id="g652"
+           style="fill:#000000">
+          <path
+             d="m 0,0 c 0,-1.017 -0.822,-1.844 -1.841,-1.844 l -22.584,0 c -1.019,0 -1.842,0.827 -1.842,1.844 l 0,18.665 c 0,1.019 0.823,1.841 1.842,1.841 l 22.584,0 C -0.822,20.506 0,19.684 0,18.665 L 0,0 z"
+             id="path654"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           transform="translate(1153.3203,3496.3857)"
+           id="g656"
+           style="fill:#000000">
+          <path
+             d="m 0,0 c -0.715,0.199 -1.542,0.089 -2.092,-0.279 l -11.374,-7.679 c -0.745,-0.508 -0.745,-1.326 0,-1.834 l 11.374,-7.679 c 0.366,-0.25 0.86,-0.38 1.358,-0.38 0.243,0 0.495,0.031 0.734,0.101 0.715,0.199 1.18,0.672 1.18,1.195 l 0,15.359 C 1.18,-0.672 0.715,-0.199 0,0"
+             id="path658"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           transform="translate(1134.2842,3503.2031)"
+           id="g660"
+           style="fill:#000000">
+          <path
+             d="m 0,0 c -1.495,0 -2.711,1.211 -2.711,2.711 0,1.495 1.216,2.706 2.711,2.706 1.495,0 2.711,-1.211 2.711,-2.706 C 2.711,1.211 1.495,0 0,0 m 0,9.269 c -3.62,0 -6.558,-2.937 -6.558,-6.558 0,-3.625 2.938,-6.563 6.558,-6.563 3.621,0 6.559,2.938 6.559,6.563 0,3.621 -2.938,6.558 -6.559,6.558"
+             id="path662"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+        <g
+           transform="translate(1120.7676,3502.4858)"
+           id="g664"
+           style="fill:#000000">
+          <path
+             d="m 0,0 c -1.356,0 -2.457,1.101 -2.457,2.458 0,1.359 1.101,2.46 2.457,2.46 1.355,0 2.462,-1.101 2.462,-2.46 C 2.462,1.101 1.355,0 0,0 m 0,8.05 c -3.089,0 -5.591,-2.504 -5.591,-5.592 0,-3.089 2.502,-5.593 5.591,-5.593 3.09,0 5.592,2.504 5.592,5.593 C 5.592,5.546 3.09,8.05 0,8.05"
+             id="path666"
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

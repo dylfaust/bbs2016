@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="1397.1124"
+   height="491.20999"
+   id="svg1067701">
+  <defs
+     id="defs1067703">
+    <clipPath
+       id="clipPath427012">
+      <path
+         d="m 224.083,2031.121 64.325,0 0,34.199 -64.325,0 0,-34.199 z"
+         id="path427014" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata1067706">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-514.54544,-182.60416)"
+     id="layer1">
+    <path
+       d="M 1911.6579,182.60416 514.54544,337.6179 l 66.8125,322.66875 293.35125,3.17875 52.2975,2.20625 44.6025,-1.1575 857.38371,9.3 82.665,-491.20999 z"
+       id="path426212"
+       style="fill:#cbd4c7;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  </g>
+</svg>
