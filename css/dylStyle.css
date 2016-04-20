@@ -1,0 +1,825 @@
+.buyingprocess
+{
+   padding: 16px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #6A6A7A;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+/* fix for IE */
+img {
+    width: 100%;
+}
+
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  margin: 0 auto; 
+  height: 100%;
+  width : 90px;
+  height : 50vh;
+  color: black;
+}
+
+.advert_step
+{
+margin-bottom: -60px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+}
+
+#advert_step-01
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-01.svg) 50% / 100%;
+    position:relative;
+}
+
+.transpImage{
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+}
+
+
+#advert_step-02
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-02.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-03
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-03.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-04
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-04.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-05
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-05.svg) 50% / 100%;
+  position:relative;
+}
+
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: 0em;
+    right: 3em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: 0em;
+    left: 19em;
+    
+    width: 200px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: 2em;
+  left: 30em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: 0em;
+    left: 25em;
+    
+    width: 200px;
+    padding: 0px;
+}
+
+.bodyText
+{
+   font-size: 13.5px;
+   text-align: left;
+   line-height: 125%;
+}
+
+/* Marketing Strategy Process Graphic (Puzzle Piece Circle) */
+
+#market_process
+{
+position: relative;
+margin : 0 auto;
+}
+
+.marketProcess
+{
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/marketStrat-02.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 100px;
+  position: absolute;
+  left: 293px;
+  top: 365px;
+  text-align:center;
+  letter-spacing: 25px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 19.5px;
+  position: absolute;
+  left: 297px;
+  bottom: 390px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+#advertProc_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:150px;
+  top: 120px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:230px;
+  top: 75px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:230px;
+  top: 103px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:350px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:533px;
+  top: 85px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:535px;
+  top: 113px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:63px;
+  top: 230px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:685px;
+  top: 322px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:685px;
+  top: 350px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  right:50px;
+  bottom: 270px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:600px;
+  bottom: 272px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:600px;
+  bottom: 150px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 60px;
+  position: absolute;
+  right:280px;
+  bottom: 50px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:330px;
+  bottom: 160px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:330px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 60px;
+  position: absolute;
+  left:175px;
+  bottom: 100px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:70px;
+  bottom: 314px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:70px;
+  bottom: 230px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 60px;
+  position: absolute;
+  left:14px;
+  bottom: 380px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  line-height: 10%;
+  text-align: left;
+}
+
+/* Strategy On The Go */
+#marketStrat_OnTheGo
+{
+  padding-top:30px;
+}
+
+/* Levels of Engagement */
+#levelsOfEngagement
+{
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#engagement
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 800px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  top: 35px;
+}
+
+.engagement_step
+{
+margin-bottom: -35px;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  position: absolute;
+  left: 270px;
+  top: 20px;
+}
+.engagement_bodyText
+{
+  font-size: 21px;
+  text-align: left;
+  position: absolute;
+  left: 270px;
+  top: 35px;
+  width: 500px;
+}
+
+#engagement_step-01
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-01.svg) 50% / 100%;
+  position:relative;
+  justify-content: center;
+  align: center;
+  text-align: center;
+}
+
+
+#engagement_step-02
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-02.svg) 50% / 100%;
+  position:relative;
+}
+
+#engagement_step-03
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-03.svg) 50% / 100%;
+  position:relative;
+}
+
+/* Media Buying Process */
+
+.mediaProcess
+{
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 800px;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_title
+{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 260px;
+  top: 310px;
+  width: 100px;
+  text-align: center !important;
+  align: center !important;
+  justify-content: center !important;
+}
+
+
+p.mediaProcess_BodyText
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:260px;
+  top: 110px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:350px;
+  top: 34px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:350px;
+  top: 62px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:100px;
+  top: 265px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:590px;
+  top: 340px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:590px;
+  top: 370px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:275px;
+  bottom: 165px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:265px;
+  bottom: 255px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:265px;
+  bottom: 120px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  left:80px;
+  bottom: 335px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  bottom: 570px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:30px;
+  bottom: 415px;
+  line-height: 10%;
+  text-align: left;
+}
+
+/* Marketing An Event */
+
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 450px;
+  width : 900px;
+  color: black;
+}
+
+.eventChecklist_step
+{
+margin-bottom: -35px;
+color: black;
+background-color:black;
+background: no-repeat url(/img/eventMarket.svg) 50% / 100%;
+position:relative;
+justify-content: center;
+align: center;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.eventChecklist_bodyText
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 8px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+/* New Brands */
+
+#threeKeys
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  width : 900px;
+  color: black;
+}
+
+.key
+{
+  width: 900px;
+  margin : 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.keyimg
+{
+  width: 60px;
+}
+
+#key-01
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-01.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+#key-02
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-02.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+#key-03
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-03.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+.key_bodyText
+{
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  left:75px;
+  top: 0px;
+  line-height: 140%;
+  margin-top: 0px;
+}
+
+/* Screen resolution adjustment */
+
+@media (min-width: 544px) 
+{
+    html
+    {
+        background-color: black;
+    }
+
+    #advert_instruct
+    {
+      margin-bottom: 400px;
+    }
+     #advert_instruct
+    {
+      width: 80%;
+    }
+}
+
+@media (min-width: 768px)
+{
+  html
+    {
+        background-color: #FFFF00;
+    }
+     #advert_instruct
+    {
+      width: 500px;
+    }
+}
+
+@media (min-width: 992px)
+{
+  html
+    {
+        background-color: blue;
+    }
+     #advert_instruct
+    {
+      width: 600px;
+    }
+    .advert_HeaderL
+    {
+      top: 3em;
+        left: 13em;
+    }
+
+    .advert_BodyL
+    {
+      top: 1em;
+        left: 22em;
+        width: 225px;
+    }
+}
+
+@media (min-width: 1320px)
+{
+  html
+    {
+        background-color: white;
+    }
+
+    #advert_instruct
+    {
+      width: 700px;
+    }
+
+    .advert_step
+    {
+      margin-bottom: -50px;
+    }
+
+
+    .advert_HeaderL
+    {
+      top: 3em;
+        left: 9.8em;
+    }
+
+    .advert_BodyL
+    {
+      top: .3em;
+        left: 18em;
+        width: 215px;
+    }
+
+    .advert_HeaderR
+    {
+      top: 3em;
+      right: 8em;
+    }
+
+    .advert_BodyR
+    {
+      top: .3em;
+      left: 21.3em;
+      width: 215px;
+    }
+  }
+}
