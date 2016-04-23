@@ -57,7 +57,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/marketing/marketingstrategy/" class = "nav-marketing">
 						<span class="icon-digital"></span>
 						<span>Digital </span>
 						<span>Marketing</span>

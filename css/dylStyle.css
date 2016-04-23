@@ -1,0 +1,3994 @@
+.buyingprocess
+{
+   padding: 16px;
+  font-weight: 700;
+  font-weight: bold;
+  color: #6A6A7A;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+
+/* fix for IE */
+img {
+    width: 100%;
+}
+
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  margin: 0 auto; 
+  height: 100%;
+  width : 90px;
+  height : 50vh;
+  color: black;
+}
+
+.advert_proc-01
+{
+  position: relative;
+}
+
+
+.advert_proc-02
+{
+  position: relative;
+}
+
+
+.advert_proc-03
+{
+  position: relative;
+}
+
+
+.advert_proc-04
+{
+  position: relative;
+}
+
+
+.advert_proc-05
+{
+  position: relative;
+}
+
+
+.advert_proc-06
+{
+  position: relative;
+}
+
+
+.advert_proc-07
+{
+  position: relative;
+}
+
+.advert_step
+{
+margin-bottom: -60px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+}
+
+#advert_step-01
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-01.svg) 50% / 100%;
+    position:relative;
+}
+
+.transpImage{
+    vertical-align: top;
+    width: 100%; /* max width */
+    opacity: 0;  /* make it transparent */
+}
+
+
+#advert_step-02
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-02.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-03
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-03.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-04
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-04.svg) 50% / 100%;
+  position:relative;
+}
+
+#advert_step-05
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/advert_step-05.svg) 50% / 100%;
+  position:relative;
+}
+
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: 0em;
+    right: 3em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: 0em;
+    left: 19em;
+    
+    width: 200px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: 2em;
+  left: 30em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: 0em;
+    left: 25em;
+    
+    width: 200px;
+    padding: 0px;
+}
+
+.bodyText
+{
+   font-size: 13.5px;
+   text-align: left;
+   line-height: 125%;
+}
+
+/* Marketing Strategy Process Graphic (Puzzle Piece Circle) */
+.marketing-container
+{
+  position: relative;
+  width: 900px;
+  margin : 0 auto;
+}
+
+.marketProcess
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/marketStrat-02.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+.marketProcess_Small
+{
+  display: none;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/MSP_small.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 100px;
+  position: absolute;
+  left: 293px;
+  top: 365px;
+  text-align:center;
+  letter-spacing: 25px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 19.5px;
+  position: absolute;
+  left: 297px;
+  bottom: 390px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt1
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt2
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+
+
+#advertProc_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:150px;
+  top: 120px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:230px;
+  top: 75px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:230px;
+  top: 103px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:350px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:533px;
+  top: 85px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:535px;
+  top: 113px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:63px;
+  top: 230px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:685px;
+  top: 322px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:685px;
+  top: 350px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  right:50px;
+  bottom: 270px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:600px;
+  bottom: 272px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:600px;
+  bottom: 150px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 60px;
+  position: absolute;
+  right:280px;
+  bottom: 50px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:330px;
+  bottom: 160px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:330px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 60px;
+  position: absolute;
+  left:175px;
+  bottom: 100px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:70px;
+  bottom: 314px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:70px;
+  bottom: 230px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 60px;
+  position: absolute;
+  left:14px;
+  bottom: 380px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  line-height: 10%;
+  text-align: left;
+}
+
+/* Strategy On The Go */
+#marketStrat_OnTheGo
+{
+  padding-top:30px;
+}
+
+/* Levels of Engagement */
+#levelsOfEngagement
+{
+ 
+  margin : 0 auto;
+}
+
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 800px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  top: 35px;
+}
+
+.engagement_step
+{
+margin-bottom: -35px;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  position: absolute;
+  left: 270px;
+  top: 20px;
+}
+.engagement_bodyText
+{
+  font-size: 21px;
+  text-align: left;
+  position: absolute;
+  left: 270px;
+  top: 35px;
+  width: 500px;
+}
+
+#engagement_step-01
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-01.svg) 50% / 100%;
+  position:relative;
+  justify-content: center;
+  align: center;
+  text-align: center;
+}
+
+
+#engagement_step-02
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-02.svg) 50% / 100%;
+  position:relative;
+}
+
+#engagement_step-03
+{
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/engagement_step-03.svg) 50% / 100%;
+  position:relative;
+}
+
+/* Media Buying Process */
+
+.mediaProcess
+{
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 800px;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_title
+{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 260px;
+  top: 310px;
+  width: 100px;
+  text-align: center !important;
+  align: center !important;
+  justify-content: center !important;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:260px;
+  top: 110px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:350px;
+  top: 34px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:350px;
+  top: 62px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:100px;
+  top: 265px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:590px;
+  top: 340px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:590px;
+  top: 370px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:275px;
+  bottom: 165px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:265px;
+  bottom: 255px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:265px;
+  bottom: 120px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  left:80px;
+  bottom: 335px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  bottom: 570px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:30px;
+  bottom: 415px;
+  line-height: 10%;
+  text-align: left;
+}
+
+/* Marketing An Event */
+
+.checklist_small
+{
+  padding-bottom: 5vw;
+}
+
+#eventChecklist_small-01
+{
+background: no-repeat url(/img/checklist_small-01.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+#eventChecklist_small-02
+{
+background: no-repeat url(/img/checklist_small-02.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+#eventChecklist_small-03
+{
+background: no-repeat url(/img/checklist_small-03.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+#eventChecklist_small-04
+{
+background: no-repeat url(/img/checklist_small-02.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+#eventChecklist_small-05
+{
+background: no-repeat url(/img/checklist_small-02.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+#eventChecklist_small-06
+{
+background: no-repeat url(/img/checklist_small-02.svg) 50% / 100%;
+width: 90%;
+margin: 0 auto;
+}
+
+
+
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 450px;
+  color: black;
+}
+
+.eventChecklist_step
+{
+margin-bottom: -35px;
+color: black;
+background: no-repeat url(/img/eventMarket.svg) 50% / 100%;
+position:relative;
+justify-content: center;
+align: center;
+text-align: center;
+margin-bottom: 25px;
+}
+
+.eventChecklist_bodyText
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyTextTall
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 8px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+/* New Brands */
+
+#threeKeys
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.key
+{
+  margin : 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.keyimg
+{
+  width: 60px;
+}
+
+#key-01
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-01.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+#key-02
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-02.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+#key-03
+{
+background-color:black;
+background: no-repeat url(/img/brandCamp-03.svg) 50% / 100%;
+position:relative;
+justify-content: left;
+align: left;
+text-align: left;
+}
+
+.key_bodyText
+{
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  left:75px;
+  top: 0px;
+  line-height: 140%;
+  margin-top: 0px;
+}
+
+/* Screen resolution adjustment */
+@media (min-width: 0px) 
+{
+
+/* Market Process */
+.marketProcess
+{
+  display: none;
+}
+
+.marketProcess_Small
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/MSP_small.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+  /* Internet Advertising */
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  width: 93vw;
+  color: black;
+}
+
+.advert_small
+{
+  display: block;
+  margin : 0 auto;
+  margin-top: 40px;
+  margin-bottom: -420px;
+  background-color:black;
+  background: no-repeat url(/img/internetAdvert_small.svg) 50% / 100%;
+}
+
+.advert_step
+{
+  display: none;
+margin-bottom: -7vw;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 2.3vw;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: 1vw;
+    right: 45vw;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: 2.7vw;
+    left:47vw;
+    
+    width: 45vw;
+    padding: 0px;
+}
+
+.advert_HeaderM
+{
+   text-align: right;
+  position: absolute;
+  top: 1vw;
+    right: 45vw;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyM
+{
+  position: absolute;
+  top: 2.7vw;
+    left:47vw;
+    
+    width: 45vw;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: .3em;
+  left: 7em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: 3.5vw;
+    left: 21vw;
+    
+    width: 45vw;
+    padding: 0px;
+}
+
+.bodyText
+{
+   font-size: 2.3vw;
+   text-align: left;
+   line-height: 2.5vw;
+}
+
+
+/* Marketing An Event */
+
+.eventChecklist_small
+{
+  display: block;
+}
+
+.eventChecklist_step
+{
+  display: none;
+}
+
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20vw;
+  color: black;
+}
+
+.eventChecklist_bodyText1
+{
+  font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: 1.2vw;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.eventChecklist_bodyText2
+{
+  font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: -.5vw;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.eventChecklist_bodyText3
+{
+  font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: 3vw;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.eventChecklist_bodyText4
+{
+    font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: 3vw;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.eventChecklist_bodyText5
+{
+   font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: 1vw;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+.eventChecklist_bodyText6
+{
+    font-size: 4.5vw;
+  text-align: left;
+  position: absolute;
+  left:20vw;
+  top: 0;
+  line-height: 6vw;
+  margin-top: 10px;
+  width: 60vw;
+}
+
+ /* -- New Branding -- */
+    .key_bodyText
+    {
+      font-size: 15px;
+      text-align: left;
+      position: absolute;
+      left:75px;
+      top: 0px;
+      line-height: 110%;
+      margin-top: 0px;
+    }
+
+    .key
+    {
+      margin : 0 auto;
+      margin-bottom: 50px;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    .keyimg
+{
+  width: 40px;
+  margin-left: 20px;
+}
+
+   /* -- Engagement -- */
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 91vw;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 12vw;
+  position: absolute;
+  text-align: center;
+  left:4.5vw;
+  top: .0vw;
+}
+
+.engagement_step
+{
+margin-bottom: -4vw;
+display: none;
+}
+
+.engagement_small
+{
+  display: block;
+  margin : 0 auto;
+  margin-top: -20vw;
+  margin-bottom: 20vw;
+  background: no-repeat url(/img/levelEngagement_small.svg) 50% / 100%;
+  width: 90vw;
+  text-align: center;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 3.2vw;
+  text-align: right;
+  position: absolute;
+  left: 25vw;
+  top: 1vw;
+}
+.engagement_bodyText
+{
+  font-size: 2.6vw;
+  text-align: left;
+  position: absolute;
+  left: 31vw;
+  top: 2vw;
+  width: 58vw;
+  line-height: 2.9vw
+}
+
+/* -- Marketing Container -- */
+    .marketing-container
+{
+  position: relative;
+  align: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin : 0 auto;
+}
+/* Media Buying Process */
+.mediaProcess_small
+{
+  display: block;
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaBuy_small.svg) 50% / 100%;
+  width: 90vw;
+  text-align: center;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+.mediaProcess
+{
+  display: none;
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 90vw;
+  text-align: center;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_title
+{
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  left: 165px;
+  top: 200px;
+  width: 100px;
+  text-align: right !important;
+  align: center !important;
+  justify-content: center !important;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 115px;
+  line-height: 110%;
+  font-size: 13px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 170px;
+  line-height: 110%;
+  font-size: 13px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 30px;
+  position: absolute;
+  left:115px;
+  top: 60px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:180px;
+  top: 35px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:180px;
+  top: 55px;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 30px;
+  position: absolute;
+  right: 48px;
+  top:140px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:366px;
+  top: 195px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:367px;
+  top: 215px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 30px;
+  position: absolute;
+  right:117px;
+  bottom: 101px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:170px;
+  bottom: 165px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:170px;
+  bottom: 83px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 30px;
+  position: absolute;
+  left:43px;
+  bottom: 173px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  left: 62px;
+  bottom: 373px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:7px;
+  bottom: 222px;
+  line-height: 10%;
+  text-align: right;
+}
+
+}
+@media (min-width: 544px) 
+{
+
+/* Market Process */
+.marketProcess
+{
+  display: none;
+}
+
+.marketProcess_Small
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/MSP_small.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 80px;
+  position: absolute;
+  left: 225px;
+  top: 285px;
+  text-align:center;
+  letter-spacing: 16px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 17px;
+  letter-spacing: -1px;
+  position: absolute;
+  left: 227px;
+  bottom: 304px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 140px;
+  line-height: 105%;
+  font-size: 15px;
+}
+
+p.advertProc_BodyTextAlt1
+{
+  width: 165px;
+  line-height: 105%;
+  font-size: 15px;
+}
+
+p.advertProc_BodyTextAlt2
+{
+  width: 145px;
+   line-height: 105%;
+  font-size: 15px;
+}
+#advertProc_Num-01
+{
+  font-size: 40px;
+  position: absolute;
+  left:95px;
+  top: 122px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:170px;
+  top: 65px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:170px;
+  top: 83px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 40px;
+  position: absolute;
+  right:283px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:404.5px;
+  top: 71px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:405px;
+  top: 88px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 40px;
+  position: absolute;
+  right:56px;
+  top: 169px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:520px;
+  top: 247px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:520px;
+  top: 265px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 40px;
+  position: absolute;
+  right:22px;
+  bottom: 235px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:455px;
+  bottom: 223px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:455px;
+  bottom: 133px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 40px;
+  position: absolute;
+  right:207px;
+  bottom: 46px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:255px;
+  bottom: 130px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:255px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 40px;
+  position: absolute;
+  left:153px;
+  bottom: 68px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:55px;
+  bottom: 245px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:55px;
+  bottom: 185px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 40px;
+  position: absolute;
+  left:13px;
+  bottom: 290px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  top: 217px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  line-height: 10%;
+  text-align: left;
+}
+
+
+/* Internet Advertising */
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  width:510px;
+  color: black;
+}
+
+.advert_small
+{
+  display: none;
+  margin : 0 auto;
+  margin-bottom: -500px;
+  background-color:black;
+  background: no-repeat url(/img/internetAdvert_small.svg) 50% / 100%;
+}
+
+.advert_step
+{
+  display:block;
+margin-bottom: -38px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.bodyText
+{
+   font-size: 12.3px;
+   text-align: left;
+   line-height: 100%;
+}
+
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: .25em;
+    right: 16.4em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: 1.1em;
+    left: 15.5em;
+    
+    width: 250px;
+    padding: 0px;
+}
+
+.advert_HeaderM
+{
+  text-align: center;
+  position: absolute;
+  top: .25em;
+  left: 15em;
+    
+  width: 0px;
+  padding: 0px;
+}
+
+.advert_BodyM
+{
+  position: absolute;
+  top: 1.1em;
+    left: 15em;
+    
+    width: 250px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: .3em;
+  left: 7.3em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: 1.1em;
+    left: 7.3em;
+    
+    width: 250px;
+    padding: 0px;
+}
+
+/* Marketing An Event */ 
+
+.eventChecklist_small
+{
+  display: none;
+}
+
+.eventChecklist_step
+{
+  display: block;
+}
+
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: black;
+}
+
+.eventChecklist_bodyText1
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 4px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+.eventChecklist_bodyText2
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 4px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+.eventChecklist_bodyText3
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+.eventChecklist_bodyText4
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+.eventChecklist_bodyText5
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+.eventChecklist_bodyText6
+{
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  left:100px;
+  top: 4px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 345px;
+}
+
+    /* -- New Branding -- */
+    .keyimg
+{
+  width: 60px;
+  margin-left: 0px;
+}
+
+    .key_bodyText
+    {
+      font-size: 17px;
+      text-align: left;
+      position: absolute;
+      left:75px;
+      top: 0px;
+      line-height: 110%;
+      margin-top: 0px;
+    }
+
+    .key
+    {
+      margin : 0 auto;
+      margin-bottom: 90px;
+      position: relative;
+    }
+    /* -- Marketing Container -- */
+    .marketing-container
+{
+  position: relative;
+  width: 500px;
+  margin : 0 auto;
+  text-align: center;
+}
+
+   /* -- Engagement -- */
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 530px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 60px;
+  position: absolute;
+  text-align: center;
+  left:30px;
+  top: 15px;
+}
+
+.engagement_step
+{
+margin-bottom: -23px;
+display: block;
+}
+
+.engagement_small
+{
+  display: none;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  position: absolute;
+  left: 150px;
+  top: 10px;
+}
+.engagement_bodyText
+{
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+  left: 180px;
+  top: 15px;
+  width: 350px;
+  line-height: 112%
+}
+
+/* Media Buying Process */
+.mediaProcess_small
+{
+  display: none;
+}
+.mediaProcess
+{
+  display: block;
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 500px;
+  position:relative;
+}
+
+#mediaProcess_Title
+{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  left: 172px;
+  top: 198px;
+  text-align: center !important;
+  line-height: 128%;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 115px;
+  line-height: 110%;
+  font-size: 13px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 170px;
+  line-height: 110%;
+  font-size: 13px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 30px;
+  position: absolute;
+  left:115px;
+  top: 60px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:180px;
+  top: 35px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:180px;
+  top: 55px;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 30px;
+  position: absolute;
+  right: 48px;
+  top:140px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:366px;
+  top: 195px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:367px;
+  top: 215px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 30px;
+  position: absolute;
+  right:117px;
+  bottom: 101px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:170px;
+  bottom: 165px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:170px;
+  bottom: 83px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 30px;
+  position: absolute;
+  left:43px;
+  bottom: 173px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  left: 62px;
+  bottom: 373px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:7px;
+  bottom: 222px;
+  line-height: 10%;
+  text-align: right;
+}
+
+}
+
+@media (min-width: 768px)
+{
+
+/* Market Process */
+.marketProcess
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/marketStrat-02.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  margin-top:10px;
+  margin-bottom:30px;
+  position:relative;
+}
+
+.marketProcess_Small
+{
+  display: none;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 80px;
+  position: absolute;
+  left: 225px;
+  top: 285px;
+  text-align:center;
+  letter-spacing: 16px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 17px;
+  letter-spacing: -1px;
+  position: absolute;
+  left: 227px;
+  bottom: 304px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 140px;
+  line-height: 105%;
+  font-size: 15px;
+}
+
+p.advertProc_BodyTextAlt1
+{
+  width: 165px;
+  line-height: 105%;
+  font-size: 15px;
+}
+
+p.advertProc_BodyTextAlt2
+{
+  width: 145px;
+   line-height: 105%;
+  font-size: 15px;
+}
+#advertProc_Num-01
+{
+  font-size: 40px;
+  position: absolute;
+  left:95px;
+  top: 122px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:170px;
+  top: 65px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:170px;
+  top: 83px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 40px;
+  position: absolute;
+  right:283px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:404.5px;
+  top: 71px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:405px;
+  top: 88px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 40px;
+  position: absolute;
+  right:56px;
+  top: 169px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:520px;
+  top: 247px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:520px;
+  top: 265px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 40px;
+  position: absolute;
+  right:22px;
+  bottom: 235px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:455px;
+  bottom: 223px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:455px;
+  bottom: 133px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 40px;
+  position: absolute;
+  right:207px;
+  bottom: 46px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:255px;
+  bottom: 130px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:255px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 40px;
+  position: absolute;
+  left:153px;
+  bottom: 68px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left:55px;
+  bottom: 245px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:55px;
+  bottom: 185px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 40px;
+  position: absolute;
+  left:13px;
+  bottom: 290px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  top: 217px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  line-height: 10%;
+  text-align: left;
+}
+
+
+/* Internet Advertising */
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 500px;
+  margin-bottom: 270px;
+  width: 670px;
+  color: black;
+}
+
+.advert_step
+{
+margin-bottom: -49px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: .65em;
+    right: 20.4em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: 2em;
+    left: 21.5em;
+    
+    width: 300px;
+    padding: 0px;
+}
+
+.advert_HeaderM
+{
+   text-align: center;
+  position: absolute;
+  top: .7em;
+  left: 22.3em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyM
+{
+  position: absolute;
+  top: 2em;
+    left: 22.3em;
+    
+    width: 300px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: .7em;
+  left: 10.3em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: 2em;
+    left: 10.3em;
+    
+    width: 300px;
+    padding: 0px;
+}
+
+.bodyText
+{
+   font-size: 12.9px;
+   text-align: left;
+   line-height: 125%;
+}
+
+/* Marketing An Event*/
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 370px;
+  color: black;
+}
+
+.eventChecklist_bodyText1
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:70px;
+  top: -2px;
+  line-height: 140%;
+  width: 240px;
+}
+
+.eventChecklist_bodyText2
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:70px;
+  top: -2px;
+  line-height: 140%;
+  width: 240px;
+}
+
+.eventChecklist_bodyText3
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:70px;
+  top: 8px;
+  line-height: 140%;
+  width: 240px;
+}
+
+.eventChecklist_bodyText4
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:70px;
+  top: 8px;
+  line-height: 140%;
+  width: 240px;
+}
+
+.eventChecklist_bodyText5
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:70px;
+  top: 8px;
+  line-height: 140%;
+  width: 240px;
+}
+
+.eventChecklist_bodyText6
+{
+  padding-bottom: 60px;
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  top: -2px;
+  left:70px;
+  line-height: 140%;
+  width: 240px;
+}
+
+/* -- New Branding -- */
+.key_bodyText
+{
+  font-size: 17px;
+  text-align: left;
+  position: absolute;
+  left:75px;
+  top: 0px;
+  line-height: 140%;
+}
+
+.key
+{
+  margin : 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* Marketing Strategy Process Graphic (Puzzle Piece Circle) */
+.marketing-container
+{
+  position: relative;
+  width: 700px;
+  margin : 0 auto;
+  text-align: center;
+}
+
+   /* -- Engagement -- */
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 720px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  left:42px;
+  top: 27px;
+}
+
+.engagement_step
+{
+margin-bottom: -30px;
+display: block;
+}
+
+.engagement_small
+{
+  display: none;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  position: absolute;
+  left: 240px;
+  top: 20px;
+}
+.engagement_bodyText
+{
+  font-size: 19.5px;
+  text-align: left;
+  position: absolute;
+  left: 240px;
+  top: 33px;
+  width: 478px;
+  line-height: 112%
+}
+
+/* Media Buying Process */
+
+.mediaProcess
+{
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 700px;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_Title
+{
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  left: 240px;
+  top: 278px;
+  text-align: center !important;
+  line-height: 128%;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 160px;
+  line-height: 105%;
+  font-size: 15.5px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 160px;
+  line-height: 105%;
+  font-size: 15.5px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 50px;
+  position: absolute;
+  left:225px;
+  top: 90px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left:310px;
+  top: 28px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:310px;
+  top: 52px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 50px;
+  position: absolute;
+  right:90px;
+  top: 235px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left:516px;
+  top: 309px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:516px;
+  top: 335px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 50px;
+  position: absolute;
+  right:235px;
+  bottom: 155px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left:240px;
+  bottom: 225px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:240px;
+  bottom: 98px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 50px;
+  position: absolute;
+  left:80px;
+  bottom: 290px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  bottom: 485px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:19px;
+  bottom: 355px;
+  line-height: 10%;
+  text-align: left;
+}
+
+}
+
+@media (min-width: 992px)
+{
+
+/* Market Process */
+.marketProcess
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/marketStrat-02.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  margin-top:10px;
+  margin-bottom:40px;
+  position:relative;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 100px;
+  position: absolute;
+  left: 293px;
+  top: 365px;
+  text-align:center;
+  letter-spacing: 25px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 19.5px;
+  position: absolute;
+  left: 297px;
+  bottom: 390px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt1
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt2
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+#advertProc_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:130px;
+  top: 140px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:230px;
+  top: 75px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:230px;
+  top: 103px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:350px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:533px;
+  top: 85px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:535px;
+  top: 113px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:63px;
+  top: 230px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:685px;
+  top: 322px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:685px;
+  top: 350px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  right:50px;
+  bottom: 270px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:600px;
+  bottom: 272px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:600px;
+  bottom: 150px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 60px;
+  position: absolute;
+  right:280px;
+  bottom: 50px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:330px;
+  bottom: 160px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:330px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 60px;
+  position: absolute;
+  left:175px;
+  bottom: 100px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:70px;
+  bottom: 314px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:70px;
+  bottom: 230px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 60px;
+  position: absolute;
+  left:14px;
+  bottom: 380px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  line-height: 10%;
+  text-align: left;
+}
+
+
+/* Internet Advertising */
+#advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  padding-bottom: 500px;
+  margin-bottom: 270px;
+  width: 700px;
+  color: black;
+}
+
+.advert_step
+{
+margin-bottom: -52px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 17.5px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: 3.5em;
+    right: 6.7em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: .5em;
+    left: 22em;
+    
+    width: 220px;
+    padding: 0px;
+}
+.advert_HeaderM
+{
+  text-align: center;
+  position: absolute;
+  top: 3.5em;
+  left: 36.7em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyM
+{
+  position: absolute;
+  top: .4em;
+    left: 18em;
+    
+    width: 200px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+  top: 3.5em;
+  left: 10.1em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+  top: .5em;
+    left: 18.5em;
+    
+    width: 210px;
+    padding: 0px;
+}
+
+.bodyText
+{
+   font-size: 13px;
+   text-align: left;
+   line-height: 125%;
+}
+
+/* Marketing An Event */ 
+#eventChecklist
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 20px;
+  padding-bottom: 450px;
+  color: black;
+}
+
+.eventChecklist_bodyText1
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyText2
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyText3
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyText4
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyText5
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 19px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+.eventChecklist_bodyText6
+{
+  font-size: 18px;
+  text-align: left;
+  position: absolute;
+  left:90px;
+  top: 8px;
+  line-height: 140%;
+  margin-top: 10px;
+  width: 320px;
+}
+
+/* -- New Branding -- */
+.key_bodyText
+{
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  left:75px;
+  top: 0px;
+  line-height: 140%;
+  margin-top: 0px;
+}
+
+.key
+{
+  margin : 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* Marketing Strategy Process Graphic (Puzzle Piece Circle) */
+.marketing-container
+{
+  position: relative;
+  width: 900px;
+  margin : 0 auto;
+}
+
+/* -- Engagement -- */
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 800px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  left:50px;
+  top: 37px;
+}
+
+.engagement_step
+{
+margin-bottom: -35px;
+display: block;
+}
+
+.engagement_small
+{
+  display: none;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  position: absolute;
+  left: 270px;
+  top: 20px;
+}
+.engagement_bodyText
+{
+  font-size: 21px;
+  text-align: left;
+  position: absolute;
+  left: 270px;
+  top: 40px;
+  width: 500px;
+  line-height: 112%
+}
+
+/* Media Buying Process */
+
+.mediaProcess
+{
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 800px;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_Title
+{
+  color: black;
+  font-size: 47px;
+  font-weight: bold;
+  position: absolute;
+  left: 270px;
+  top: 305px;
+  text-align: center !important;
+  line-height: 130%;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:260px;
+  top: 110px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:350px;
+  top: 34px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:350px;
+  top: 62px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:100px;
+  top: 265px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:590px;
+  top: 340px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:590px;
+  top: 370px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:275px;
+  bottom: 165px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:265px;
+  bottom: 255px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:265px;
+  bottom: 120px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  left:80px;
+  bottom: 335px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  bottom: 570px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:30px;
+  bottom: 415px;
+  line-height: 10%;
+  text-align: left;
+}
+
+}
+
+@media (min-width: 1320px)
+{
+
+/* Market Process */
+.marketProcess
+{
+  display: block;
+  margin : 0 auto;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/marketStrat-02.svg) 50% / 100%;
+  width: 95%;
+  align: center;
+  justify-content: center;
+  left: 0px;
+  padding-top: 40px;
+  margin-top: 40px;
+  position:relative;
+}
+
+#advertProc_title
+{
+  color: #0B182D;
+  font-size: 100px;
+  position: absolute;
+  left: 293px;
+  top: 365px;
+  text-align:center;
+  letter-spacing: 25px;
+}
+
+#advertProc_subtitle
+{
+  color: #0B182D;
+  font-size: 19.5px;
+  position: absolute;
+  left: 297px;
+  bottom: 390px;
+  font-weight: bold;
+}
+
+
+p.advertProc_BodyText
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt1
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+
+p.advertProc_BodyTextAlt2
+{
+  width: 173px;
+  line-height: 120%;
+  font-size: 17px;
+}
+#advertProc_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:130px;
+  top: 140px;
+}
+
+#advertProc_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:230px;
+  top: 75px;
+}
+
+#advertProc_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:230px;
+  top: 103px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:350px;
+  top: 30px;
+}
+
+#advertProc_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:533px;
+  top: 85px;
+}
+
+#advertProc_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:535px;
+  top: 113px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:63px;
+  top: 230px;
+}
+
+#advertProc_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:685px;
+  top: 322px;
+}
+
+#advertProc_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:685px;
+  top: 350px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  right:50px;
+  bottom: 270px;
+}
+
+#advertProc_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:600px;
+  bottom: 272px;
+}
+
+#advertProc_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:600px;
+  bottom: 150px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-05
+{
+  font-size: 60px;
+  position: absolute;
+  right:280px;
+  bottom: 50px;
+}
+
+#advertProc_Head-05
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:330px;
+  bottom: 160px;
+}
+
+#advertProc_Body-05
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:330px;
+  bottom: 40px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-06
+{
+  font-size: 60px;
+  position: absolute;
+  left:175px;
+  bottom: 100px;
+}
+
+#advertProc_Head-06
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:70px;
+  bottom: 314px;
+}
+
+#advertProc_Body-06
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:70px;
+  bottom: 230px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#advertProc_Num-07
+{
+  font-size: 60px;
+  position: absolute;
+  left:14px;
+  bottom: 380px;
+}
+
+#advertProc_Head-07
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 50px;
+  top: 270px;
+}
+
+#advertProc_Body-07
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  line-height: 10%;
+  text-align: left;
+}
+
+
+/* Internet Advertsising */
+
+    #advert_instruct
+{
+  text-align : center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 700px;
+  height : 50vh;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  color: black;
+}
+
+.advert_step
+{
+ margin-bottom: -50px;
+}
+
+.advert_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+.advert_HeaderR
+{
+  text-align: right;
+  position: absolute;
+  top: 3em;
+  right: 8em;
+  width: 0px;
+  padding: 0px;
+}
+
+.advert_BodyR
+{
+  position: absolute;
+  top: .3em;
+      left: 21.5em;
+      width: 215px;
+    padding: 0px;
+}
+
+.advert_HeaderM
+{
+  text-align: right;
+  position: absolute;
+  top: 3.5em;
+    right: 7em;
+    
+    width: 0px;
+    padding: 0px;
+}
+
+.advert_BodyM
+{
+  position: absolute;
+  top: .4em;
+    left: 18em;
+    
+    width: 200px;
+    padding: 0px;
+}
+.advert_HeaderL
+{
+  text-align: center;
+  position: absolute;
+    
+    width: 0px;
+    padding: 0px;
+
+    top: 3em;
+        left: 9.8em;
+}
+
+.advert_BodyL
+{
+  position: absolute;
+    padding: 0px;
+    top: .3em;
+    left: 18.2em;
+    width: 215px;
+}
+
+.bodyText
+{
+   font-size: 13.5px;
+   text-align: left;
+   line-height: 125%;
+}
+
+/* -- New Branding -- */
+.key_bodyText
+{
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  left:75px;
+  top: 0px;
+  line-height: 140%;
+  margin-top: 0px;
+}
+
+.key
+{
+  margin : 0 auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* -- Engagement -- */
+#engagement-container
+{
+  text-align : center;
+  justify-content: center;
+  align: center;
+  margin : 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  width : 800px;
+  color: black;
+}
+
+.engagement_num
+{
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  top: 35px;
+}
+
+.engagement_step
+{
+margin-bottom: -35px;
+display: block;
+}
+
+.engagement_small
+{
+  display: none;
+}
+
+.engagement_head
+{
+  font-weight: bold;
+  font-size: 21px;
+  text-align: right;
+  position: absolute;
+  left: 270px;
+  top: 20px;
+}
+.engagement_bodyText
+{
+  font-size: 21px;
+  text-align: left;
+  position: absolute;
+  left: 270px;
+  top: 35px;
+  width: 500px;
+  line-height: 112%
+}
+
+  /* Media Buying Process */
+
+.mediaProcess
+{
+  margin : 0 auto;
+  padding-top: 40px;
+  color: white;
+  background-color:black;
+  background: no-repeat url(/img/mediaProcess.svg) 50% / 100%;
+  width: 800px;
+  align: center;
+  justify-content: center;
+  position:relative;
+}
+
+#mediaProcess_title
+{
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left: 260px;
+  top: 310px;
+  width: 100px;
+  text-align: center !important;
+  align: center !important;
+  justify-content: center !important;
+}
+
+
+p.mediaProcess_BodyTextTall
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+p.mediaProcess_BodyTextWide
+{
+  width: 175px;
+  line-height: 120%;
+  font-size: 16.6px;
+}
+
+#mediaProcess_Num-01
+{
+  font-size: 60px;
+  position: absolute;
+  left:260px;
+  top: 110px;
+}
+
+#mediaProcess_Head-01
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:350px;
+  top: 34px;
+}
+
+#mediaProcess_Body-01
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:350px;
+  top: 62px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-02
+{
+  font-size: 60px;
+  position: absolute;
+  right:100px;
+  top: 265px;
+}
+
+#mediaProcess_Head-02
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:590px;
+  top: 340px;
+}
+
+#mediaProcess_Body-02
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:590px;
+  top: 370px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-03
+{
+  font-size: 60px;
+  position: absolute;
+  right:275px;
+  bottom: 165px;
+}
+
+#mediaProcess_Head-03
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left:265px;
+  bottom: 255px;
+}
+
+#mediaProcess_Body-03
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:265px;
+  bottom: 120px;
+  line-height: 10%;
+  text-align: left;
+}
+
+#mediaProcess_Num-04
+{
+  font-size: 60px;
+  position: absolute;
+  left:80px;
+  bottom: 335px;
+}
+
+#mediaProcess_Head-04
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  bottom: 570px;
+}
+
+#mediaProcess_Body-04
+{
+  /*font-size: 60px; */
+  position: absolute;
+  left:30px;
+  bottom: 415px;
+  line-height: 10%;
+  text-align: left;
+}
+  }
+}
